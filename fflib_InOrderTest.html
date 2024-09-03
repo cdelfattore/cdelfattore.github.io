@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Apex Documentation</title>
+    <meta charset="UTF-8">
+    <script type="module" src="./assets/index.js"></script>
+    <script type="module" src="./assets/search-idx.js"></script>
+    <script type="module" src="./assets/search.js"></script>
+    <script charset="UTF-8" src="./assets/highlight.js"></script>
+    <script charset="UTF-8" src="./assets/mark.js"></script>
+    <script charset="UTF-8" src="./assets/lunr.js"></script>
+    <link rel="stylesheet" href="./assets/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/index.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+  </head>
+
+  <body>
+    <div id="side-bar">
+
+      <div id="logo-container">
+        <div class="title">
+          Apex Documentation
+        </div>
+        <img src="assets/logo.png" />
+        <div class="subtitle">
+          Powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/no-stack-dub-sack/apexdox-vs-code">ApexDox VS Code</a>
+        </div>
+      </div>
+      <div id="search-wrapper">
+        <div class="search-icon"></div>
+        <input id="search-input" type="text" autocomplete="off" placeholder="Search...">
+      </div>
+      <ul id="search-results" class=""></ul>
+      <div class="navbar">
+        <nav role="navigation">
+          <a class="nav-header" id="home" href="javascript:void(0)" onclick="goToLocation('index.html');">
+            Home
+          </a>
+          <details id="Class_defining_a_method_return_value." class="group-name">
+            <summary id="header-Class_defining_a_method_return_value." class="nav-header">
+              <span>Class defining a method return value.</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_MethodReturnValue" id="item-fflib_MethodReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValue</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Contains_counterparts_for_helper_methods_in_the_native_System_class." class="group-name">
+            <summary id="header-Contains_counterparts_for_helper_methods_in_the_native_System_class." class="nav-header">
+              <span>Contains counterparts for helper methods in the native System class.</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_System" id="item-fflib_System" class="nav-item class public" onclick="goToLocation('fflib_System.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_System</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Core" class="group-name">
+            <summary id="header-Core" class="nav-header">
+              <span>Core</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_Answer" id="item-fflib_Answer" class="nav-item class public" onclick="goToLocation('fflib_Answer.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Answer</a>
+              </li>
+              <li title="fflib_AnyOrder" id="item-fflib_AnyOrder" class="nav-item class public" onclick="goToLocation('fflib_AnyOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrder</a>
+              </li>
+              <li title="fflib_ApexMocks" id="item-fflib_ApexMocks" class="nav-item class public" onclick="goToLocation('fflib_ApexMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocks</a>
+              </li>
+              <li title="fflib_ArgumentCaptor" id="item-fflib_ArgumentCaptor" class="nav-item class public" onclick="goToLocation('fflib_ArgumentCaptor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptor</a>
+              </li>
+              <li title="fflib_InOrder" id="item-fflib_InOrder" class="nav-item class public" onclick="goToLocation('fflib_InOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrder</a>
+              </li>
+              <li title="fflib_InvocationOnMock" id="item-fflib_InvocationOnMock" class="nav-item class public" onclick="goToLocation('fflib_InvocationOnMock.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InvocationOnMock</a>
+              </li>
+              <li title="fflib_MethodCountRecorder" id="item-fflib_MethodCountRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodCountRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodCountRecorder</a>
+              </li>
+              <li title="fflib_MethodReturnValueRecorder" id="item-fflib_MethodReturnValueRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValueRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValueRecorder</a>
+              </li>
+              <li title="fflib_MethodVerifier" id="item-fflib_MethodVerifier" class="nav-item class public" onclick="goToLocation('fflib_MethodVerifier.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodVerifier</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValues" id="item-fflib_QualifiedMethodAndArgValues" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValues</a>
+              </li>
+              <li title="fflib_VerificationMode" id="item-fflib_VerificationMode" class="nav-item class public" onclick="goToLocation('fflib_VerificationMode.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_VerificationMode</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Miscellaneous" class="group-name">
+            <summary id="header-Miscellaneous" class="nav-header">
+              <span>Miscellaneous</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_AnswerTest" id="item-fflib_AnswerTest" class="nav-item class private" onclick="goToLocation('fflib_AnswerTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnswerTest</a>
+              </li>
+              <li title="fflib_AnyOrderTest" id="item-fflib_AnyOrderTest" class="nav-item class private" onclick="goToLocation('fflib_AnyOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrderTest</a>
+              </li>
+              <li title="fflib_ApexMocksConfig" id="item-fflib_ApexMocksConfig" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksConfig.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksConfig</a>
+              </li>
+              <li title="fflib_ApexMocksTest" id="item-fflib_ApexMocksTest" class="nav-item class private" onclick="goToLocation('fflib_ApexMocksTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksTest</a>
+              </li>
+              <li title="fflib_ApexMocksUtils" id="item-fflib_ApexMocksUtils" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtils</a>
+              </li>
+              <li title="fflib_ApexMocksUtilsTest" id="item-fflib_ApexMocksUtilsTest" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtilsTest</a>
+              </li>
+              <li title="fflib_Application" id="item-fflib_Application" class="nav-item class public" onclick="goToLocation('fflib_Application.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Application</a>
+              </li>
+              <li title="fflib_ApplicationTest" id="item-fflib_ApplicationTest" class="nav-item class private" onclick="goToLocation('fflib_ApplicationTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApplicationTest</a>
+              </li>
+              <li title="fflib_ArgumentCaptorTest" id="item-fflib_ArgumentCaptorTest" class="nav-item class private" onclick="goToLocation('fflib_ArgumentCaptorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptorTest</a>
+              </li>
+              <li title="fflib_IDGenerator" id="item-fflib_IDGenerator" class="nav-item class public" onclick="goToLocation('fflib_IDGenerator.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGenerator</a>
+              </li>
+              <li title="fflib_IDGeneratorTest" id="item-fflib_IDGeneratorTest" class="nav-item class private" onclick="goToLocation('fflib_IDGeneratorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGeneratorTest</a>
+              </li>
+              <li title="fflib_IDomain" id="item-fflib_IDomain" class="nav-item class public" onclick="goToLocation('fflib_IDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomain</a>
+              </li>
+              <li title="fflib_IDomainConstructor" id="item-fflib_IDomainConstructor" class="nav-item class public" onclick="goToLocation('fflib_IDomainConstructor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainConstructor</a>
+              </li>
+              <li title="fflib_IDomainFactory" id="item-fflib_IDomainFactory" class="nav-item class public" onclick="goToLocation('fflib_IDomainFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainFactory</a>
+              </li>
+              <li title="fflib_IMatcher" id="item-fflib_IMatcher" class="nav-item class public" onclick="goToLocation('fflib_IMatcher.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IMatcher</a>
+              </li>
+              <li title="fflib_Inheritor" id="item-fflib_Inheritor" class="nav-item class public" onclick="goToLocation('fflib_Inheritor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Inheritor</a>
+              </li>
+              <li title="fflib_InheritorTest" id="item-fflib_InheritorTest" class="nav-item class public" onclick="goToLocation('fflib_InheritorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InheritorTest</a>
+              </li>
+              <li title="fflib_InOrderTest" id="item-fflib_InOrderTest" class="nav-item class private" onclick="goToLocation('fflib_InOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrderTest</a>
+              </li>
+              <li title="fflib_IObjects" id="item-fflib_IObjects" class="nav-item class public" onclick="goToLocation('fflib_IObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IObjects</a>
+              </li>
+              <li title="fflib_ISelectorFactory" id="item-fflib_ISelectorFactory" class="nav-item class public" onclick="goToLocation('fflib_ISelectorFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISelectorFactory</a>
+              </li>
+              <li title="fflib_IServiceFactory" id="item-fflib_IServiceFactory" class="nav-item class public" onclick="goToLocation('fflib_IServiceFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IServiceFactory</a>
+              </li>
+              <li title="fflib_ISObjectDomain" id="item-fflib_ISObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_ISObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectDomain</a>
+              </li>
+              <li title="fflib_ISObjects" id="item-fflib_ISObjects" class="nav-item class public" onclick="goToLocation('fflib_ISObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjects</a>
+              </li>
+              <li title="fflib_ISObjectSelector" id="item-fflib_ISObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_ISObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectSelector</a>
+              </li>
+              <li title="fflib_ISObjectUnitOfWork" id="item-fflib_ISObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_ISObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_IUnitOfWorkFactory" id="item-fflib_IUnitOfWorkFactory" class="nav-item class public" onclick="goToLocation('fflib_IUnitOfWorkFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IUnitOfWorkFactory</a>
+              </li>
+              <li title="fflib_Match" id="item-fflib_Match" class="nav-item class public" onclick="goToLocation('fflib_Match.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Match</a>
+              </li>
+              <li title="fflib_MatcherDefinitions" id="item-fflib_MatcherDefinitions" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitions.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitions</a>
+              </li>
+              <li title="fflib_MatcherDefinitionsTest" id="item-fflib_MatcherDefinitionsTest" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitionsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitionsTest</a>
+              </li>
+              <li title="fflib_MatchersReturnValue" id="item-fflib_MatchersReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MatchersReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchersReturnValue</a>
+              </li>
+              <li title="fflib_MatchTest" id="item-fflib_MatchTest" class="nav-item class public" onclick="goToLocation('fflib_MatchTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchTest</a>
+              </li>
+              <li title="fflib_MethodArgValues" id="item-fflib_MethodArgValues" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValues</a>
+              </li>
+              <li title="fflib_MethodArgValuesTest" id="item-fflib_MethodArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValuesTest</a>
+              </li>
+              <li title="fflib_Mocks" id="item-fflib_Mocks" class="nav-item class public" onclick="goToLocation('fflib_Mocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Mocks</a>
+              </li>
+              <li title="fflib_MyList" id="item-fflib_MyList" class="nav-item class public" onclick="goToLocation('fflib_MyList.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MyList</a>
+              </li>
+              <li title="fflib_Objects" id="item-fflib_Objects" class="nav-item class public" onclick="goToLocation('fflib_Objects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Objects</a>
+              </li>
+              <li title="fflib_ObjectsTest" id="item-fflib_ObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_ObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ObjectsTest</a>
+              </li>
+              <li title="fflib_QualifiedMethod" id="item-fflib_QualifiedMethod" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethod.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethod</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValuesTest" id="item-fflib_QualifiedMethodAndArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValuesTest</a>
+              </li>
+              <li title="fflib_QualifiedMethodTest" id="item-fflib_QualifiedMethodTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodTest</a>
+              </li>
+              <li title="fflib_QueryFactory" id="item-fflib_QueryFactory" class="nav-item class public" onclick="goToLocation('fflib_QueryFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactory</a>
+              </li>
+              <li title="fflib_QueryFactoryTest" id="item-fflib_QueryFactoryTest" class="nav-item class private" onclick="goToLocation('fflib_QueryFactoryTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactoryTest</a>
+              </li>
+              <li title="fflib_SecurityUtils" id="item-fflib_SecurityUtils" class="nav-item class public" onclick="goToLocation('fflib_SecurityUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtils</a>
+              </li>
+              <li title="fflib_SecurityUtilsTest" id="item-fflib_SecurityUtilsTest" class="nav-item class private" onclick="goToLocation('fflib_SecurityUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtilsTest</a>
+              </li>
+              <li title="fflib_SObjectDescribe" id="item-fflib_SObjectDescribe" class="nav-item class public" onclick="goToLocation('fflib_SObjectDescribe.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribe</a>
+              </li>
+              <li title="fflib_SObjectDescribeTest" id="item-fflib_SObjectDescribeTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDescribeTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribeTest</a>
+              </li>
+              <li title="fflib_SObjectDomain" id="item-fflib_SObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_SObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomain</a>
+              </li>
+              <li title="fflib_SObjectDomainTest" id="item-fflib_SObjectDomainTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDomainTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomainTest</a>
+              </li>
+              <li title="fflib_SObjectMocks" id="item-fflib_SObjectMocks" class="nav-item class public" onclick="goToLocation('fflib_SObjectMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectMocks</a>
+              </li>
+              <li title="fflib_SObjects" id="item-fflib_SObjects" class="nav-item class public" onclick="goToLocation('fflib_SObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjects</a>
+              </li>
+              <li title="fflib_SObjectSelector" id="item-fflib_SObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_SObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelector</a>
+              </li>
+              <li title="fflib_SObjectSelectorTest" id="item-fflib_SObjectSelectorTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectSelectorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelectorTest</a>
+              </li>
+              <li title="fflib_SObjectsTest" id="item-fflib_SObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectsTest</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWork" id="item-fflib_SObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_SObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWorkTest" id="item-fflib_SObjectUnitOfWorkTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectUnitOfWorkTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWorkTest</a>
+              </li>
+              <li title="fflib_StringBuilder" id="item-fflib_StringBuilder" class="nav-item class public" onclick="goToLocation('fflib_StringBuilder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilder</a>
+              </li>
+              <li title="fflib_StringBuilderTest" id="item-fflib_StringBuilderTest" class="nav-item class private" onclick="goToLocation('fflib_StringBuilderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilderTest</a>
+              </li>
+              <li title="fflib_SystemTest" id="item-fflib_SystemTest" class="nav-item class private" onclick="goToLocation('fflib_SystemTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SystemTest</a>
+              </li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+    </div>
+    <table id="content">
+      <tr>
+        <td class="scoping-panel">
+          Show: <input type="checkbox" checked="true" id="cbx-all" onclick="toggleAllScopes(this.checked);" />
+          <label for="cbx-all">All</label>&nbsp;&nbsp;
+          <input type="checkbox" checked="true" id="cbx-global" onclick="toggleScope('global', this.checked);" />
+          <label for="cbx-global">
+            global
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-public" onclick="toggleScope('public', this.checked);" />
+          <label for="cbx-public">
+            public
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-protected" onclick="toggleScope('protected', this.checked);" />
+          <label for="cbx-protected">
+            protected
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-private" onclick="toggleScope('private', this.checked);" />
+          <label for="cbx-private">
+            private
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-testmethod" onclick="toggleScope('testmethod', this.checked);" />
+          <label for="cbx-testmethod">
+            testMethod
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-webservice" onclick="toggleScope('webservice', this.checked);" />
+          <label for="cbx-webservice">
+            webService
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td class="doc-page">
+
+          <div class="section">
+
+            <h2 class="class-title top-level-type" id="fflib_InOrderTest">
+              <span>fflib_InOrderTest</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+              <div class="class-annotations">@isTest</div>
+              <div class="class-signature">
+                private class fflib_InOrderTest
+              </div>
+            </div>
+            <div class="subsection properties fflib_InOrderTest">
+              <h3 class="subsection-title properties">fflib_InOrderTest Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>MY_MOCKS</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private static fflib_ApexMocks MY_MOCKS
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_InOrderTest Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatMixedVerificationDoNotInterfierWithOtherImplementationChecking">
+                      thatMixedVerificationDoNotInterfierWithOtherImplementationChecking ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatStrictVerificationCanBeEnforced">
+                      thatStrictVerificationCanBeEnforced ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatStrictVerificationCanBeEnforcedWithOldNotation">
+                      thatStrictVerificationCanBeEnforcedWithOldNotation ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatStrictVerificationCanBeEnforcedWithOldNotationUsingDefaultTimesOne">
+                      thatStrictVerificationCanBeEnforcedWithOldNotationUsingDefaultTimesOne ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatStrictVerificationCanBePerformed">
+                      thatStrictVerificationCanBePerformed ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatTimesOneIsTheDefaultVerification">
+                      thatTimesOneIsTheDefaultVerification ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastConsumeAllTheInstances">
+                      thatVerifyAtLeastConsumeAllTheInstances ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastConsumeAllTheInstancesForOnlyTheMethodVerified">
+                      thatVerifyAtLeastConsumeAllTheInstancesForOnlyTheMethodVerified ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastConsumesAllTheInstances2">
+                      thatVerifyAtLeastConsumesAllTheInstances2 ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastOnce">
+                      thatVerifyAtLeastOnce ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastOnceConsumesAllTheInstances">
+                      thatVerifyAtLeastOnceConsumesAllTheInstances ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastOnceConsumesInstancesUntilLastMethodVerified">
+                      thatVerifyAtLeastOnceConsumesInstancesUntilLastMethodVerified ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastOnceThrowsErrorIfCalledLessTimes">
+                      thatVerifyAtLeastOnceThrowsErrorIfCalledLessTimes ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastPassWithMoreCallsThenAsserted">
+                      thatVerifyAtLeastPassWithMoreCallsThenAsserted ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastPassWithSameCallsOfAssertion">
+                      thatVerifyAtLeastPassWithSameCallsOfAssertion ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtLeastThrowsErrorIfCalledLessTimes">
+                      thatVerifyAtLeastThrowsErrorIfCalledLessTimes ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyAtMostThrowsExceptionBecauseNotImplemented">
+                      thatVerifyAtMostThrowsExceptionBecauseNotImplemented ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyBetweenThrowsExceptionBecauseNotImplemented">
+                      thatVerifyBetweenThrowsExceptionBecauseNotImplemented ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderAllTheMethodsCalled">
+                      thatVerifyInOrderAllTheMethodsCalled ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCallMethodWithMatches">
+                      thatVerifyInOrderCallMethodWithMatches ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCallMethodWithMatchesFailsIfVerifyACallAlreadyInTheMatcher">
+                      thatVerifyInOrderCallMethodWithMatchesFailsIfVerifyACallAlreadyInTheMatcher ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCallMethodWithMultipleMatches">
+                      thatVerifyInOrderCallMethodWithMultipleMatches ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCallMethodWithMultipleMatchesMixed">
+                      thatVerifyInOrderCallMethodWithMultipleMatchesMixed ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCallMethodWithMultipleMatchesMixedFailWhenMatcherHaveAlreadyVerifiedMethod">
+                      thatVerifyInOrderCallMethodWithMultipleMatchesMixedFailWhenMatcherHaveAlreadyVerifiedMethod ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCanHandleMixedInOrderInstance">
+                      thatVerifyInOrderCanHandleMixedInOrderInstance ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMethodsCalls">
+                      thatVerifyInOrderCanHandleMultipleMethodsCalls ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMethodsCallsAndNotFailsIfVerifyCountIsGreaterThenExpected">
+                      thatVerifyInOrderCanHandleMultipleMethodsCallsAndNotFailsIfVerifyCountIsGreaterThenExpected ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMethodsCallsButFailsIfVerifyCountIsLessThenExpected">
+                      thatVerifyInOrderCanHandleMultipleMethodsCallsButFailsIfVerifyCountIsLessThenExpected ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMocks">
+                      thatVerifyInOrderCanHandleMultipleMocks ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderCanSkipMethodsCalledUntilFindTheOneThatNeedsVerify">
+                      thatVerifyInOrderCanSkipMethodsCalledUntilFindTheOneThatNeedsVerify ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderDifferentMethodsCalledWithSameArguments">
+                      thatVerifyInOrderDifferentMethodsCalledWithSameArguments ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsDoubleCallFail">
+                      thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsDoubleCallFail ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsOrderFail">
+                      thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsOrderFail ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderThrownExceptionIfVerifyMockInstanceNotInTheSet">
+                      thatVerifyInOrderThrownExceptionIfVerifyMockInstanceNotInTheSet ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyInOrderThrownExceptionWithCustomMessage">
+                      thatVerifyInOrderThrownExceptionWithCustomMessage ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNever">
+                      thatVerifyNever ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNeverFailsWhenCalled">
+                      thatVerifyNeverFailsWhenCalled ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNeverFailsWhenCalledWithMatchers">
+                      thatVerifyNeverFailsWhenCalledWithMatchers ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNeverWithMatchers">
+                      thatVerifyNeverWithMatchers ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNoInteractionsFails">
+                      thatVerifyNoInteractionsFails ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNoInteractionsPass">
+                      thatVerifyNoInteractionsPass ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNoMoreInteractionsFails">
+                      thatVerifyNoMoreInteractionsFails ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNoMoreInteractionsFailsWhenNoInteracionOccurs">
+                      thatVerifyNoMoreInteractionsFailsWhenNoInteracionOccurs ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNoMoreInteractionsFailsWhenOnLyOneMethodLeft">
+                      thatVerifyNoMoreInteractionsFailsWhenOnLyOneMethodLeft ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyNoMoreInteractionsPass">
+                      thatVerifyNoMoreInteractionsPass ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyThrowsExceptionWhenCallsIsInvochedFromStandardMock">
+                      thatVerifyThrowsExceptionWhenCallsIsInvochedFromStandardMock ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimes">
+                      thatVerifyTimes ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                      thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls2">
+                      thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls2 ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls3">
+                      thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls3 ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls4">
+                      thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls4 ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesThrowsExceptionIfCalledLessTimesThanExpected">
+                      thatVerifyTimesThrowsExceptionIfCalledLessTimesThanExpected ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesThrowsExceptionIfCalledMoreTimesThanExpected">
+                      thatVerifyTimesThrowsExceptionIfCalledMoreTimesThanExpected ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatVerifyTimesThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                      thatVerifyTimesThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatWithOldNotation">
+                      thatWithOldNotation ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatWithOldNotationPassWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                      thatWithOldNotationPassWhenAnotherMethodIsCalledBetweenMethodsCalls ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatWithOldNotationThrowsExceptionIfCalledLessTimesThanExpected">
+                      thatWithOldNotationThrowsExceptionIfCalledLessTimesThanExpected ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatWithOldNotationThrowsExceptionIfCalledMoreTimesThanExpected">
+                      thatWithOldNotationThrowsExceptionIfCalledMoreTimesThanExpected ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.thatWithOldNotationThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                      thatWithOldNotationThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.verifyAtLeastAndCapture">
+                      verifyAtLeastAndCapture ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.verifyCallsAndCapture">
+                      verifyCallsAndCapture ()
+                    </a>
+
+                  </li>
+                  <li class="method testmethod">
+                    <a class="methods-toc__entry " href="#fflib_InOrderTest.verifyTimesAndCaptor">
+                      verifyTimesAndCaptor ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatMixedVerificationDoNotInterfierWithOtherImplementationChecking">
+                    <span>thatMixedVerificationDoNotInterfierWithOtherImplementationChecking()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatMixedVerificationDoNotInterfierWithOtherImplementationChecking()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatStrictVerificationCanBeEnforced">
+                    <span>thatStrictVerificationCanBeEnforced()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatStrictVerificationCanBeEnforced()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatStrictVerificationCanBeEnforcedWithOldNotation">
+                    <span>thatStrictVerificationCanBeEnforcedWithOldNotation()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatStrictVerificationCanBeEnforcedWithOldNotation()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatStrictVerificationCanBeEnforcedWithOldNotationUsingDefaultTimesOne">
+                    <span>thatStrictVerificationCanBeEnforcedWithOldNotationUsingDefaultTimesOne()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatStrictVerificationCanBeEnforcedWithOldNotationUsingDefaultTimesOne()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatStrictVerificationCanBePerformed">
+                    <span>thatStrictVerificationCanBePerformed()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatStrictVerificationCanBePerformed()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatTimesOneIsTheDefaultVerification">
+                    <span>thatTimesOneIsTheDefaultVerification()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatTimesOneIsTheDefaultVerification()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastConsumeAllTheInstances">
+                    <span>thatVerifyAtLeastConsumeAllTheInstances()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastConsumeAllTheInstances()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastConsumeAllTheInstancesForOnlyTheMethodVerified">
+                    <span>thatVerifyAtLeastConsumeAllTheInstancesForOnlyTheMethodVerified()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastConsumeAllTheInstancesForOnlyTheMethodVerified()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastConsumesAllTheInstances2">
+                    <span>thatVerifyAtLeastConsumesAllTheInstances2()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastConsumesAllTheInstances2()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastOnce">
+                    <span>thatVerifyAtLeastOnce()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastOnce()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastOnceConsumesAllTheInstances">
+                    <span>thatVerifyAtLeastOnceConsumesAllTheInstances()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastOnceConsumesAllTheInstances()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastOnceConsumesInstancesUntilLastMethodVerified">
+                    <span>thatVerifyAtLeastOnceConsumesInstancesUntilLastMethodVerified()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastOnceConsumesInstancesUntilLastMethodVerified()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastOnceThrowsErrorIfCalledLessTimes">
+                    <span>thatVerifyAtLeastOnceThrowsErrorIfCalledLessTimes()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastOnceThrowsErrorIfCalledLessTimes()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastPassWithMoreCallsThenAsserted">
+                    <span>thatVerifyAtLeastPassWithMoreCallsThenAsserted()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastPassWithMoreCallsThenAsserted()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastPassWithSameCallsOfAssertion">
+                    <span>thatVerifyAtLeastPassWithSameCallsOfAssertion()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastPassWithSameCallsOfAssertion()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtLeastThrowsErrorIfCalledLessTimes">
+                    <span>thatVerifyAtLeastThrowsErrorIfCalledLessTimes()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtLeastThrowsErrorIfCalledLessTimes()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyAtMostThrowsExceptionBecauseNotImplemented">
+                    <span>thatVerifyAtMostThrowsExceptionBecauseNotImplemented()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyAtMostThrowsExceptionBecauseNotImplemented()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyBetweenThrowsExceptionBecauseNotImplemented">
+                    <span>thatVerifyBetweenThrowsExceptionBecauseNotImplemented()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyBetweenThrowsExceptionBecauseNotImplemented()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderAllTheMethodsCalled">
+                    <span>thatVerifyInOrderAllTheMethodsCalled()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderAllTheMethodsCalled()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCallMethodWithMatches">
+                    <span>thatVerifyInOrderCallMethodWithMatches()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCallMethodWithMatches()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCallMethodWithMatchesFailsIfVerifyACallAlreadyInTheMatcher">
+                    <span>thatVerifyInOrderCallMethodWithMatchesFailsIfVerifyACallAlreadyInTheMatcher()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCallMethodWithMatchesFailsIfVerifyACallAlreadyInTheMatcher()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCallMethodWithMultipleMatches">
+                    <span>thatVerifyInOrderCallMethodWithMultipleMatches()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCallMethodWithMultipleMatches()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCallMethodWithMultipleMatchesMixed">
+                    <span>thatVerifyInOrderCallMethodWithMultipleMatchesMixed()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCallMethodWithMultipleMatchesMixed()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCallMethodWithMultipleMatchesMixedFailWhenMatcherHaveAlreadyVerifiedMethod">
+                    <span>thatVerifyInOrderCallMethodWithMultipleMatchesMixedFailWhenMatcherHaveAlreadyVerifiedMethod()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCallMethodWithMultipleMatchesMixedFailWhenMatcherHaveAlreadyVerifiedMethod()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCanHandleMixedInOrderInstance">
+                    <span>thatVerifyInOrderCanHandleMixedInOrderInstance()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCanHandleMixedInOrderInstance()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMethodsCalls">
+                    <span>thatVerifyInOrderCanHandleMultipleMethodsCalls()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCanHandleMultipleMethodsCalls()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMethodsCallsAndNotFailsIfVerifyCountIsGreaterThenExpected">
+                    <span>thatVerifyInOrderCanHandleMultipleMethodsCallsAndNotFailsIfVerifyCountIsGreaterThenExpected()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCanHandleMultipleMethodsCallsAndNotFailsIfVerifyCountIsGreaterThenExpected()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMethodsCallsButFailsIfVerifyCountIsLessThenExpected">
+                    <span>thatVerifyInOrderCanHandleMultipleMethodsCallsButFailsIfVerifyCountIsLessThenExpected()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCanHandleMultipleMethodsCallsButFailsIfVerifyCountIsLessThenExpected()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCanHandleMultipleMocks">
+                    <span>thatVerifyInOrderCanHandleMultipleMocks()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCanHandleMultipleMocks()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderCanSkipMethodsCalledUntilFindTheOneThatNeedsVerify">
+                    <span>thatVerifyInOrderCanSkipMethodsCalledUntilFindTheOneThatNeedsVerify()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderCanSkipMethodsCalledUntilFindTheOneThatNeedsVerify()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderDifferentMethodsCalledWithSameArguments">
+                    <span>thatVerifyInOrderDifferentMethodsCalledWithSameArguments()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderDifferentMethodsCalledWithSameArguments()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsDoubleCallFail">
+                    <span>thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsDoubleCallFail()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsDoubleCallFail()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsOrderFail">
+                    <span>thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsOrderFail()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderDifferentMethodsCalledWithSameArgumentsOrderFail()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderThrownExceptionIfVerifyMockInstanceNotInTheSet">
+                    <span>thatVerifyInOrderThrownExceptionIfVerifyMockInstanceNotInTheSet()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderThrownExceptionIfVerifyMockInstanceNotInTheSet()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyInOrderThrownExceptionWithCustomMessage">
+                    <span>thatVerifyInOrderThrownExceptionWithCustomMessage()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyInOrderThrownExceptionWithCustomMessage()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNever">
+                    <span>thatVerifyNever()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNever()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNeverFailsWhenCalled">
+                    <span>thatVerifyNeverFailsWhenCalled()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNeverFailsWhenCalled()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNeverFailsWhenCalledWithMatchers">
+                    <span>thatVerifyNeverFailsWhenCalledWithMatchers()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNeverFailsWhenCalledWithMatchers()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNeverWithMatchers">
+                    <span>thatVerifyNeverWithMatchers()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNeverWithMatchers()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNoInteractionsFails">
+                    <span>thatVerifyNoInteractionsFails()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNoInteractionsFails()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNoInteractionsPass">
+                    <span>thatVerifyNoInteractionsPass()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNoInteractionsPass()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNoMoreInteractionsFails">
+                    <span>thatVerifyNoMoreInteractionsFails()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNoMoreInteractionsFails()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNoMoreInteractionsFailsWhenNoInteracionOccurs">
+                    <span>thatVerifyNoMoreInteractionsFailsWhenNoInteracionOccurs()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNoMoreInteractionsFailsWhenNoInteracionOccurs()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNoMoreInteractionsFailsWhenOnLyOneMethodLeft">
+                    <span>thatVerifyNoMoreInteractionsFailsWhenOnLyOneMethodLeft()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNoMoreInteractionsFailsWhenOnLyOneMethodLeft()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyNoMoreInteractionsPass">
+                    <span>thatVerifyNoMoreInteractionsPass()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyNoMoreInteractionsPass()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyThrowsExceptionWhenCallsIsInvochedFromStandardMock">
+                    <span>thatVerifyThrowsExceptionWhenCallsIsInvochedFromStandardMock()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyThrowsExceptionWhenCallsIsInvochedFromStandardMock()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimes">
+                    <span>thatVerifyTimes()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimes()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                    <span>thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls2">
+                    <span>thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls2()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls2()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls3">
+                    <span>thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls3()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls3()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls4">
+                    <span>thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls4()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesPassWhenAnotherMethodIsCalledBetweenMethodsCalls4()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesThrowsExceptionIfCalledLessTimesThanExpected">
+                    <span>thatVerifyTimesThrowsExceptionIfCalledLessTimesThanExpected()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesThrowsExceptionIfCalledLessTimesThanExpected()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesThrowsExceptionIfCalledMoreTimesThanExpected">
+                    <span>thatVerifyTimesThrowsExceptionIfCalledMoreTimesThanExpected()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesThrowsExceptionIfCalledMoreTimesThanExpected()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatVerifyTimesThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                    <span>thatVerifyTimesThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatVerifyTimesThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatWithOldNotation">
+                    <span>thatWithOldNotation()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatWithOldNotation()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatWithOldNotationPassWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                    <span>thatWithOldNotationPassWhenAnotherMethodIsCalledBetweenMethodsCalls()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatWithOldNotationPassWhenAnotherMethodIsCalledBetweenMethodsCalls()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatWithOldNotationThrowsExceptionIfCalledLessTimesThanExpected">
+                    <span>thatWithOldNotationThrowsExceptionIfCalledLessTimesThanExpected()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatWithOldNotationThrowsExceptionIfCalledLessTimesThanExpected()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatWithOldNotationThrowsExceptionIfCalledMoreTimesThanExpected">
+                    <span>thatWithOldNotationThrowsExceptionIfCalledMoreTimesThanExpected()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatWithOldNotationThrowsExceptionIfCalledMoreTimesThanExpected()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.thatWithOldNotationThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls">
+                    <span>thatWithOldNotationThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void thatWithOldNotationThrowsExceptionWhenAnotherMethodIsCalledBetweenMethodsCalls()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.verifyAtLeastAndCapture">
+                    <span>verifyAtLeastAndCapture()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void verifyAtLeastAndCapture()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.verifyCallsAndCapture">
+                    <span>verifyCallsAndCapture()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void verifyCallsAndCapture()
+                  </div>
+                </div>
+                <div class="method testmethod">
+                  <h4 class="method-title " id="fflib_InOrderTest.verifyTimesAndCaptor">
+                    <span>verifyTimesAndCaptor()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@isTest</div>
+                  <div class="method-signature">
+                    static void verifyTimesAndCaptor()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+
+          <div>
+            <a href="https://github.com/no-stack-dub-sack/apexdox-vs-code" target="_blank" rel="noopener noreferrer">
+              Powered By ApexDox VS Code
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>

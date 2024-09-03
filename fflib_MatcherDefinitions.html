@@ -1,0 +1,4536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Apex Documentation</title>
+    <meta charset="UTF-8">
+    <script type="module" src="./assets/index.js"></script>
+    <script type="module" src="./assets/search-idx.js"></script>
+    <script type="module" src="./assets/search.js"></script>
+    <script charset="UTF-8" src="./assets/highlight.js"></script>
+    <script charset="UTF-8" src="./assets/mark.js"></script>
+    <script charset="UTF-8" src="./assets/lunr.js"></script>
+    <link rel="stylesheet" href="./assets/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/index.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+  </head>
+
+  <body>
+    <div id="side-bar">
+
+      <div id="logo-container">
+        <div class="title">
+          Apex Documentation
+        </div>
+        <img src="assets/logo.png" />
+        <div class="subtitle">
+          Powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/no-stack-dub-sack/apexdox-vs-code">ApexDox VS Code</a>
+        </div>
+      </div>
+      <div id="search-wrapper">
+        <div class="search-icon"></div>
+        <input id="search-input" type="text" autocomplete="off" placeholder="Search...">
+      </div>
+      <ul id="search-results" class=""></ul>
+      <div class="navbar">
+        <nav role="navigation">
+          <a class="nav-header" id="home" href="javascript:void(0)" onclick="goToLocation('index.html');">
+            Home
+          </a>
+          <details id="Class_defining_a_method_return_value." class="group-name">
+            <summary id="header-Class_defining_a_method_return_value." class="nav-header">
+              <span>Class defining a method return value.</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_MethodReturnValue" id="item-fflib_MethodReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValue</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Contains_counterparts_for_helper_methods_in_the_native_System_class." class="group-name">
+            <summary id="header-Contains_counterparts_for_helper_methods_in_the_native_System_class." class="nav-header">
+              <span>Contains counterparts for helper methods in the native System class.</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_System" id="item-fflib_System" class="nav-item class public" onclick="goToLocation('fflib_System.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_System</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Core" class="group-name">
+            <summary id="header-Core" class="nav-header">
+              <span>Core</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_Answer" id="item-fflib_Answer" class="nav-item class public" onclick="goToLocation('fflib_Answer.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Answer</a>
+              </li>
+              <li title="fflib_AnyOrder" id="item-fflib_AnyOrder" class="nav-item class public" onclick="goToLocation('fflib_AnyOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrder</a>
+              </li>
+              <li title="fflib_ApexMocks" id="item-fflib_ApexMocks" class="nav-item class public" onclick="goToLocation('fflib_ApexMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocks</a>
+              </li>
+              <li title="fflib_ArgumentCaptor" id="item-fflib_ArgumentCaptor" class="nav-item class public" onclick="goToLocation('fflib_ArgumentCaptor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptor</a>
+              </li>
+              <li title="fflib_InOrder" id="item-fflib_InOrder" class="nav-item class public" onclick="goToLocation('fflib_InOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrder</a>
+              </li>
+              <li title="fflib_InvocationOnMock" id="item-fflib_InvocationOnMock" class="nav-item class public" onclick="goToLocation('fflib_InvocationOnMock.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InvocationOnMock</a>
+              </li>
+              <li title="fflib_MethodCountRecorder" id="item-fflib_MethodCountRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodCountRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodCountRecorder</a>
+              </li>
+              <li title="fflib_MethodReturnValueRecorder" id="item-fflib_MethodReturnValueRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValueRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValueRecorder</a>
+              </li>
+              <li title="fflib_MethodVerifier" id="item-fflib_MethodVerifier" class="nav-item class public" onclick="goToLocation('fflib_MethodVerifier.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodVerifier</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValues" id="item-fflib_QualifiedMethodAndArgValues" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValues</a>
+              </li>
+              <li title="fflib_VerificationMode" id="item-fflib_VerificationMode" class="nav-item class public" onclick="goToLocation('fflib_VerificationMode.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_VerificationMode</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Miscellaneous" class="group-name">
+            <summary id="header-Miscellaneous" class="nav-header">
+              <span>Miscellaneous</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_AnswerTest" id="item-fflib_AnswerTest" class="nav-item class private" onclick="goToLocation('fflib_AnswerTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnswerTest</a>
+              </li>
+              <li title="fflib_AnyOrderTest" id="item-fflib_AnyOrderTest" class="nav-item class private" onclick="goToLocation('fflib_AnyOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrderTest</a>
+              </li>
+              <li title="fflib_ApexMocksConfig" id="item-fflib_ApexMocksConfig" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksConfig.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksConfig</a>
+              </li>
+              <li title="fflib_ApexMocksTest" id="item-fflib_ApexMocksTest" class="nav-item class private" onclick="goToLocation('fflib_ApexMocksTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksTest</a>
+              </li>
+              <li title="fflib_ApexMocksUtils" id="item-fflib_ApexMocksUtils" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtils</a>
+              </li>
+              <li title="fflib_ApexMocksUtilsTest" id="item-fflib_ApexMocksUtilsTest" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtilsTest</a>
+              </li>
+              <li title="fflib_Application" id="item-fflib_Application" class="nav-item class public" onclick="goToLocation('fflib_Application.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Application</a>
+              </li>
+              <li title="fflib_ApplicationTest" id="item-fflib_ApplicationTest" class="nav-item class private" onclick="goToLocation('fflib_ApplicationTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApplicationTest</a>
+              </li>
+              <li title="fflib_ArgumentCaptorTest" id="item-fflib_ArgumentCaptorTest" class="nav-item class private" onclick="goToLocation('fflib_ArgumentCaptorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptorTest</a>
+              </li>
+              <li title="fflib_IDGenerator" id="item-fflib_IDGenerator" class="nav-item class public" onclick="goToLocation('fflib_IDGenerator.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGenerator</a>
+              </li>
+              <li title="fflib_IDGeneratorTest" id="item-fflib_IDGeneratorTest" class="nav-item class private" onclick="goToLocation('fflib_IDGeneratorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGeneratorTest</a>
+              </li>
+              <li title="fflib_IDomain" id="item-fflib_IDomain" class="nav-item class public" onclick="goToLocation('fflib_IDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomain</a>
+              </li>
+              <li title="fflib_IDomainConstructor" id="item-fflib_IDomainConstructor" class="nav-item class public" onclick="goToLocation('fflib_IDomainConstructor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainConstructor</a>
+              </li>
+              <li title="fflib_IDomainFactory" id="item-fflib_IDomainFactory" class="nav-item class public" onclick="goToLocation('fflib_IDomainFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainFactory</a>
+              </li>
+              <li title="fflib_IMatcher" id="item-fflib_IMatcher" class="nav-item class public" onclick="goToLocation('fflib_IMatcher.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IMatcher</a>
+              </li>
+              <li title="fflib_Inheritor" id="item-fflib_Inheritor" class="nav-item class public" onclick="goToLocation('fflib_Inheritor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Inheritor</a>
+              </li>
+              <li title="fflib_InheritorTest" id="item-fflib_InheritorTest" class="nav-item class public" onclick="goToLocation('fflib_InheritorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InheritorTest</a>
+              </li>
+              <li title="fflib_InOrderTest" id="item-fflib_InOrderTest" class="nav-item class private" onclick="goToLocation('fflib_InOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrderTest</a>
+              </li>
+              <li title="fflib_IObjects" id="item-fflib_IObjects" class="nav-item class public" onclick="goToLocation('fflib_IObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IObjects</a>
+              </li>
+              <li title="fflib_ISelectorFactory" id="item-fflib_ISelectorFactory" class="nav-item class public" onclick="goToLocation('fflib_ISelectorFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISelectorFactory</a>
+              </li>
+              <li title="fflib_IServiceFactory" id="item-fflib_IServiceFactory" class="nav-item class public" onclick="goToLocation('fflib_IServiceFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IServiceFactory</a>
+              </li>
+              <li title="fflib_ISObjectDomain" id="item-fflib_ISObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_ISObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectDomain</a>
+              </li>
+              <li title="fflib_ISObjects" id="item-fflib_ISObjects" class="nav-item class public" onclick="goToLocation('fflib_ISObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjects</a>
+              </li>
+              <li title="fflib_ISObjectSelector" id="item-fflib_ISObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_ISObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectSelector</a>
+              </li>
+              <li title="fflib_ISObjectUnitOfWork" id="item-fflib_ISObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_ISObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_IUnitOfWorkFactory" id="item-fflib_IUnitOfWorkFactory" class="nav-item class public" onclick="goToLocation('fflib_IUnitOfWorkFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IUnitOfWorkFactory</a>
+              </li>
+              <li title="fflib_Match" id="item-fflib_Match" class="nav-item class public" onclick="goToLocation('fflib_Match.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Match</a>
+              </li>
+              <li title="fflib_MatcherDefinitions" id="item-fflib_MatcherDefinitions" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitions.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitions</a>
+              </li>
+              <li title="fflib_MatcherDefinitionsTest" id="item-fflib_MatcherDefinitionsTest" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitionsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitionsTest</a>
+              </li>
+              <li title="fflib_MatchersReturnValue" id="item-fflib_MatchersReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MatchersReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchersReturnValue</a>
+              </li>
+              <li title="fflib_MatchTest" id="item-fflib_MatchTest" class="nav-item class public" onclick="goToLocation('fflib_MatchTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchTest</a>
+              </li>
+              <li title="fflib_MethodArgValues" id="item-fflib_MethodArgValues" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValues</a>
+              </li>
+              <li title="fflib_MethodArgValuesTest" id="item-fflib_MethodArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValuesTest</a>
+              </li>
+              <li title="fflib_Mocks" id="item-fflib_Mocks" class="nav-item class public" onclick="goToLocation('fflib_Mocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Mocks</a>
+              </li>
+              <li title="fflib_MyList" id="item-fflib_MyList" class="nav-item class public" onclick="goToLocation('fflib_MyList.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MyList</a>
+              </li>
+              <li title="fflib_Objects" id="item-fflib_Objects" class="nav-item class public" onclick="goToLocation('fflib_Objects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Objects</a>
+              </li>
+              <li title="fflib_ObjectsTest" id="item-fflib_ObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_ObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ObjectsTest</a>
+              </li>
+              <li title="fflib_QualifiedMethod" id="item-fflib_QualifiedMethod" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethod.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethod</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValuesTest" id="item-fflib_QualifiedMethodAndArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValuesTest</a>
+              </li>
+              <li title="fflib_QualifiedMethodTest" id="item-fflib_QualifiedMethodTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodTest</a>
+              </li>
+              <li title="fflib_QueryFactory" id="item-fflib_QueryFactory" class="nav-item class public" onclick="goToLocation('fflib_QueryFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactory</a>
+              </li>
+              <li title="fflib_QueryFactoryTest" id="item-fflib_QueryFactoryTest" class="nav-item class private" onclick="goToLocation('fflib_QueryFactoryTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactoryTest</a>
+              </li>
+              <li title="fflib_SecurityUtils" id="item-fflib_SecurityUtils" class="nav-item class public" onclick="goToLocation('fflib_SecurityUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtils</a>
+              </li>
+              <li title="fflib_SecurityUtilsTest" id="item-fflib_SecurityUtilsTest" class="nav-item class private" onclick="goToLocation('fflib_SecurityUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtilsTest</a>
+              </li>
+              <li title="fflib_SObjectDescribe" id="item-fflib_SObjectDescribe" class="nav-item class public" onclick="goToLocation('fflib_SObjectDescribe.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribe</a>
+              </li>
+              <li title="fflib_SObjectDescribeTest" id="item-fflib_SObjectDescribeTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDescribeTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribeTest</a>
+              </li>
+              <li title="fflib_SObjectDomain" id="item-fflib_SObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_SObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomain</a>
+              </li>
+              <li title="fflib_SObjectDomainTest" id="item-fflib_SObjectDomainTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDomainTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomainTest</a>
+              </li>
+              <li title="fflib_SObjectMocks" id="item-fflib_SObjectMocks" class="nav-item class public" onclick="goToLocation('fflib_SObjectMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectMocks</a>
+              </li>
+              <li title="fflib_SObjects" id="item-fflib_SObjects" class="nav-item class public" onclick="goToLocation('fflib_SObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjects</a>
+              </li>
+              <li title="fflib_SObjectSelector" id="item-fflib_SObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_SObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelector</a>
+              </li>
+              <li title="fflib_SObjectSelectorTest" id="item-fflib_SObjectSelectorTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectSelectorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelectorTest</a>
+              </li>
+              <li title="fflib_SObjectsTest" id="item-fflib_SObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectsTest</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWork" id="item-fflib_SObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_SObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWorkTest" id="item-fflib_SObjectUnitOfWorkTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectUnitOfWorkTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWorkTest</a>
+              </li>
+              <li title="fflib_StringBuilder" id="item-fflib_StringBuilder" class="nav-item class public" onclick="goToLocation('fflib_StringBuilder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilder</a>
+              </li>
+              <li title="fflib_StringBuilderTest" id="item-fflib_StringBuilderTest" class="nav-item class private" onclick="goToLocation('fflib_StringBuilderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilderTest</a>
+              </li>
+              <li title="fflib_SystemTest" id="item-fflib_SystemTest" class="nav-item class private" onclick="goToLocation('fflib_SystemTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SystemTest</a>
+              </li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+    </div>
+    <table id="content">
+      <tr>
+        <td class="scoping-panel">
+          Show: <input type="checkbox" checked="true" id="cbx-all" onclick="toggleAllScopes(this.checked);" />
+          <label for="cbx-all">All</label>&nbsp;&nbsp;
+          <input type="checkbox" checked="true" id="cbx-global" onclick="toggleScope('global', this.checked);" />
+          <label for="cbx-global">
+            global
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-public" onclick="toggleScope('public', this.checked);" />
+          <label for="cbx-public">
+            public
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-protected" onclick="toggleScope('protected', this.checked);" />
+          <label for="cbx-protected">
+            protected
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-private" onclick="toggleScope('private', this.checked);" />
+          <label for="cbx-private">
+            private
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-testmethod" onclick="toggleScope('testmethod', this.checked);" />
+          <label for="cbx-testmethod">
+            testMethod
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-webservice" onclick="toggleScope('webservice', this.checked);" />
+          <label for="cbx-webservice">
+            webService
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td class="doc-page">
+
+          <div class="section">
+
+            <h2 class="class-title top-level-type" id="fflib_MatcherDefinitions">
+              <span>fflib_MatcherDefinitions</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Copyright (c) 2014-2017, FinancialForce.com, inc All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. - Neither the name of the FinancialForce.com, inc nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public with sharing class fflib_MatcherDefinitions
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+                  <th>Description</th>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>Connective</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public Enum Connective
+                    </div>
+                  </td>
+
+
+                  <td class="attribute-description">
+                    Connective - Enum representing the possible operators for the Combined matcher. Possible values: ALL, AT_LEAST_ONE, NONE
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.sObjectMatches">
+                      sObjectMatches (sobj, toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      helper for the sObjectWith, sObjectsWith matchers Compares to see if the field values in toMatch exist in the sobj
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.stringify">
+                      stringify (value)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.validateNotNull">
+                      validateNotNull (arg)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.sObjectMatches">
+                    <span>sObjectMatches(sobj, toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    helper for the sObjectWith, sObjectsWith matchers Compares to see if the field values in toMatch exist in the sobj
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private static Boolean sObjectMatches(Sobject sobj, map&lt;Schema.SobjectField,Object&gt; toMatch)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.stringify">
+                    <span>stringify(value)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public static String stringify(Object value)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.validateNotNull">
+                    <span>validateNotNull(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private static Object validateNotNull(Object arg)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyBoolean">
+              <span>fflib_MatcherDefinitions.AnyBoolean</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyBoolean matcher: checks if the supplied argument is an instance of a Boolean
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyBoolean implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyBoolean Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyBoolean.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyBoolean.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyBoolean.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyBoolean.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyDate">
+              <span>fflib_MatcherDefinitions.AnyDate</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyDate matcher: checks if the supplied argument is an instance of a Date
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyDate implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyDate Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDate.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDate.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDate.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDate.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyDatetime">
+              <span>fflib_MatcherDefinitions.AnyDatetime</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyDatetime matcher: checks if the supplied argument is an instance of a Datetime
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyDatetime implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyDatetime Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDatetime.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDatetime.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDatetime.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDatetime.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyDecimal">
+              <span>fflib_MatcherDefinitions.AnyDecimal</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyDecimal matcher: checks if the supplied argument is an instance of a Decimal
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyDecimal implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyDecimal Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDecimal.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDecimal.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDecimal.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDecimal.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyDouble">
+              <span>fflib_MatcherDefinitions.AnyDouble</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyDouble matcher: checks if the supplied argument is an instance of a Double
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyDouble implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyDouble Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDouble.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyDouble.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDouble.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyDouble.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyFieldSet">
+              <span>fflib_MatcherDefinitions.AnyFieldSet</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyFieldSet matcher: checks if the supplied argument is an instance of a FieldSet
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyFieldSet implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyFieldSet Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyFieldSet.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyFieldSet.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyFieldSet.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyFieldSet.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyId">
+              <span>fflib_MatcherDefinitions.AnyId</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyId matcher: checks if the supplied argument is an instance of an Id
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyId implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyId Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyId.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyId.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyId.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyId.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyInteger">
+              <span>fflib_MatcherDefinitions.AnyInteger</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyInteger matcher: checks if the supplied argument is an instance of an Integer
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyInteger implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyInteger Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyInteger.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyInteger.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyInteger.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyInteger.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyList">
+              <span>fflib_MatcherDefinitions.AnyList</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyList matcher: checks if the supplied argument is an instance of a List
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyList implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyList Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyList.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyList.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyList.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyList.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyLong">
+              <span>fflib_MatcherDefinitions.AnyLong</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyLong matcher: checks if the supplied argument is an instance of a Long
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyLong implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyLong Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyLong.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyLong.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyLong.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyLong.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyObject">
+              <span>fflib_MatcherDefinitions.AnyObject</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyObject matcher: checks if the supplied argument is an instance of an Object
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyObject implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyObject Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyObject.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyObject.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyObject.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyObject.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnySObject">
+              <span>fflib_MatcherDefinitions.AnySObject</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnySObject matcher: checks if the supplied argument is an instance of an SObject
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnySObject implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnySObject Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnySObject.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnySObject.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnySObject.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnySObject.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnySObjectField">
+              <span>fflib_MatcherDefinitions.AnySObjectField</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnySObjectField matcher: checks if the supplied argument is an instance of an SObjectField
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnySObjectField implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnySObjectField Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnySObjectField.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnySObjectField.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnySObjectField.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnySObjectField.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnySObjectType">
+              <span>fflib_MatcherDefinitions.AnySObjectType</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnySObjectType matcher: checks if the supplied argument is an instance of an SObjectType
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnySObjectType implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnySObjectType Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnySObjectType.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnySObjectType.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnySObjectType.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnySObjectType.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.AnyString">
+              <span>fflib_MatcherDefinitions.AnyString</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                AnyString matcher: checks if the supplied argument is an instance of a String
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class AnyString implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.AnyString Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyString.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.AnyString.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyString.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.AnyString.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.Combined">
+              <span>fflib_MatcherDefinitions.Combined</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Combined matcher: compares the supplied argument matches one, all or none of the internal matchers
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class Combined implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_Combined">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.Combined Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>connectiveExpression</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Connective connectiveExpression
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>internalMatchers</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private List&lt;fflib_IMatcher&gt; internalMatchers
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.Combined Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Combined.Combined">
+                      Combined (connectiveExpression, internalMatchers)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Combined constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Combined.Combined">
+                    <span>Combined(connectiveExpression, internalMatchers)</span>
+                  </h4>
+                  <div class="method-description">
+                    Combined constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Combined(Connective connectiveExpression, List&lt;fflib_IMatcher&gt; internalMatchers)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">connectiveExpression</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Connective</code>
+                  </div>
+                  <div class="param-description">Controls the combination mode, i.e. if we need to match all, any or none of the inner matchers</div>
+                  <div class="param-name">internalMatchers</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">List&lt;fflib_IMatcher&gt;</code>
+                  </div>
+                  <div class="param-description">An ordered list of the internal matchers to be combined</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.Combined A new Combined instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.Combined Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Combined.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Combined.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Combined.validate">
+                      validate (connectiveExpression)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Combined.validate_1">
+                      validate (innerMatchers)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Combined.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Combined.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Combined.validate">
+                    <span>validate(connectiveExpression)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private Connective validate(Connective connectiveExpression)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Combined.validate_1">
+                    <span>validate(innerMatchers)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private List&lt;fflib_IMatcher&gt; validate(List&lt;fflib_IMatcher&gt; innerMatchers)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.DatetimeAfter">
+              <span>fflib_MatcherDefinitions.DatetimeAfter</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DatetimeAfter matcher: checks if the supplied argument is after a specified datetime
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DatetimeAfter implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_DatetimeAfter">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.DatetimeAfter Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>fromDatetime</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Datetime fromDatetime
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusive</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusive
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DatetimeAfter Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeAfter.DatetimeAfter">
+                      DatetimeAfter (fromDatetime, inclusive)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      DatetimeAfter constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeAfter.DatetimeAfter">
+                    <span>DatetimeAfter(fromDatetime, inclusive)</span>
+                  </h4>
+                  <div class="method-description">
+                    DatetimeAfter constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public DatetimeAfter(Datetime fromDatetime, Boolean inclusive)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fromDatetime</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Datetime</code>
+                  </div>
+                  <div class="param-description">The datetime to be compared</div>
+                  <div class="param-name">inclusive</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not dates equal to the fromDatetime should be considered a match</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.DatetimeAfter A new DatetimeAfter instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DatetimeAfter Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeAfter.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeAfter.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeAfter.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeAfter.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.DatetimeBefore">
+              <span>fflib_MatcherDefinitions.DatetimeBefore</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DatetimeBefore matcher: checks if the supplied argument is before a specified datetime
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DatetimeBefore implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_DatetimeBefore">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.DatetimeBefore Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusive</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusive
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toDatetime</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Datetime toDatetime
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DatetimeBefore Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeBefore.DatetimeBefore">
+                      DatetimeBefore (toDatetime, inclusive)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      DatetimeBefore constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeBefore.DatetimeBefore">
+                    <span>DatetimeBefore(toDatetime, inclusive)</span>
+                  </h4>
+                  <div class="method-description">
+                    DatetimeBefore constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public DatetimeBefore(Datetime toDatetime, Boolean inclusive)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toDatetime</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Datetime</code>
+                  </div>
+                  <div class="param-description">The datetime to be compared</div>
+                  <div class="param-name">inclusive</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not dates equal to the toDatetime should be considered a match</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.DatetimeBefore A new DatetimeBefore instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DatetimeBefore Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeBefore.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeBefore.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeBefore.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeBefore.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.DatetimeBetween">
+              <span>fflib_MatcherDefinitions.DatetimeBetween</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DatetimeBetween matcher: checks if the supplied argument is between two specified datetimes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DatetimeBetween implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_DatetimeBetween">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.DatetimeBetween Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>fromDatetime</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Datetime fromDatetime
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusiveFrom</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusiveFrom
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusiveTo</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusiveTo
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toDatetime</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Datetime toDatetime
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DatetimeBetween Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeBetween.DatetimeBetween">
+                      DatetimeBetween (fromDatetime, inclusiveFrom, toDatetime, inclusiveTo)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      DatetimeBetween constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeBetween.DatetimeBetween">
+                    <span>DatetimeBetween(fromDatetime, inclusiveFrom, toDatetime, inclusiveTo)</span>
+                  </h4>
+                  <div class="method-description">
+                    DatetimeBetween constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public DatetimeBetween(Datetime fromDatetime, Boolean inclusiveFrom, Datetime toDatetime, Boolean inclusiveTo)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fromDatetime</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Datetime</code>
+                  </div>
+                  <div class="param-description">The lower bound datetime to be compared</div>
+                  <div class="param-name">inclusiveFrom</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not dates equal to the fromDatetime should be considered a match</div>
+                  <div class="param-name">toDatetime</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Datetime</code>
+                  </div>
+                  <div class="param-description">The upper bound dateetime to be compared</div>
+                  <div class="param-name">inclusiveTo</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not dates equal to the toDatetime should be considered a match</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.DatetimeBetween A new DatetimeBetween instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DatetimeBetween Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeBetween.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DatetimeBetween.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeBetween.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DatetimeBetween.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.DecimalBetween">
+              <span>fflib_MatcherDefinitions.DecimalBetween</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DecimalBetween matcher: checks if the supplied argument is between two specified decimals
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DecimalBetween implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_DecimalBetween">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.DecimalBetween Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusiveLower</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusiveLower
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusiveUpper</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusiveUpper
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>lower</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Decimal lower
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>upper</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Decimal upper
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DecimalBetween Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalBetween.DecimalBetween">
+                      DecimalBetween (lower, inclusiveLower, upper, inclusiveUpper)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      DecimalBetween constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalBetween.DecimalBetween">
+                    <span>DecimalBetween(lower, inclusiveLower, upper, inclusiveUpper)</span>
+                  </h4>
+                  <div class="method-description">
+                    DecimalBetween constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public DecimalBetween(Decimal lower, Boolean inclusiveLower, Decimal upper, Boolean inclusiveUpper)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">lower</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Decimal</code>
+                  </div>
+                  <div class="param-description">The lower bound number to be compared</div>
+                  <div class="param-name">inclusiveLower</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not numbers equal to lower should be considered a match</div>
+                  <div class="param-name">upper</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Decimal</code>
+                  </div>
+                  <div class="param-description">The upper bound number to be compared</div>
+                  <div class="param-name">inclusiveUpper</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not numbers equal to upper should be considered a match</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.DecimalBetween A new DecimalBetween instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DecimalBetween Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalBetween.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalBetween.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalBetween.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalBetween.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.DecimalLessThan">
+              <span>fflib_MatcherDefinitions.DecimalLessThan</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DecimalLessThan matcher: checks if the supplied argument is less than a specified decimal
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DecimalLessThan implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_DecimalLessThan">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.DecimalLessThan Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusive</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusive
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Decimal toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DecimalLessThan Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalLessThan.DecimalLessThan">
+                      DecimalLessThan (toMatch, inclusive)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      DecimalLessThan constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalLessThan.DecimalLessThan">
+                    <span>DecimalLessThan(toMatch, inclusive)</span>
+                  </h4>
+                  <div class="method-description">
+                    DecimalLessThan constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public DecimalLessThan(Decimal toMatch, Boolean inclusive)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Decimal</code>
+                  </div>
+                  <div class="param-description">The number to be compared against</div>
+                  <div class="param-name">inclusive</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not numbers equal to toMatch should be considered a match</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.DecimalLessThan A new DecimalLessThan instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DecimalLessThan Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalLessThan.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalLessThan.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalLessThan.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalLessThan.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.DecimalMoreThan">
+              <span>fflib_MatcherDefinitions.DecimalMoreThan</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DecimalMoreThan matcher: checks if the supplied argument is greater than a specified decimal
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DecimalMoreThan implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_DecimalMoreThan">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.DecimalMoreThan Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>inclusive</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean inclusive
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Decimal toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DecimalMoreThan Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalMoreThan.DecimalMoreThan">
+                      DecimalMoreThan (toMatch, inclusive)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      DecimalMoreThan constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalMoreThan.DecimalMoreThan">
+                    <span>DecimalMoreThan(toMatch, inclusive)</span>
+                  </h4>
+                  <div class="method-description">
+                    DecimalMoreThan constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public DecimalMoreThan(Decimal toMatch, Boolean inclusive)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Decimal</code>
+                  </div>
+                  <div class="param-description">The number to be compared against</div>
+                  <div class="param-name">inclusive</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">Whether or not numbers equal to toMatch should be considered a match</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.DecimalMoreThan A new DecimalMoreThan instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.DecimalMoreThan Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalMoreThan.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.DecimalMoreThan.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalMoreThan.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.DecimalMoreThan.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.Eq">
+              <span>fflib_MatcherDefinitions.Eq</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Eq matcher: checks if the supplied argument is equal (==) to a specified object
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class Eq implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_Eq">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.Eq Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Object toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.Eq Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Eq.Eq">
+                      Eq (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Eq constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Eq.Eq">
+                    <span>Eq(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    Eq constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Eq(Object toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Object</code>
+                  </div>
+                  <div class="param-description">The object to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.Eq A new Eq instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.Eq Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Eq.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.Eq.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Eq.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.Eq.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.FieldSetEquivalentTo">
+              <span>fflib_MatcherDefinitions.FieldSetEquivalentTo</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                FIELDSET MATCHERS
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class FieldSetEquivalentTo implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_FieldSetEquivalentTo">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.FieldSetEquivalentTo Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private final Set&lt;Schema.FieldSetMember&gt; toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.FieldSetEquivalentTo Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.FieldSetEquivalentTo.FieldSetEquivalentTo">
+                      FieldSetEquivalentTo ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.FieldSetEquivalentTo.FieldSetEquivalentTo_1">
+                      FieldSetEquivalentTo (toMatch)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.FieldSetEquivalentTo.FieldSetEquivalentTo">
+                    <span>FieldSetEquivalentTo()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@TestVisible</div>
+                  <div class="method-signature">
+                    public FieldSetEquivalentTo()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.FieldSetEquivalentTo.FieldSetEquivalentTo_1">
+                    <span>FieldSetEquivalentTo(toMatch)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public FieldSetEquivalentTo(Schema.FieldSet toMatch)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.FieldSetEquivalentTo Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.FieldSetEquivalentTo.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.FieldSetEquivalentTo.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.FieldSetEquivalentTo.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.FieldSetEquivalentTo.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.IsNotNull">
+              <span>fflib_MatcherDefinitions.IsNotNull</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                IsNotNull matcher: checks the supplied argument is not null
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class IsNotNull implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.IsNotNull Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.IsNotNull.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.IsNotNull.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.IsNotNull.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.IsNotNull.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.IsNull">
+              <span>fflib_MatcherDefinitions.IsNull</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                IsNull matcher: checks the supplied argument is null
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class IsNull implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.IsNull Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.IsNull.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.IsNull.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.IsNull.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.IsNull.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.ListContains">
+              <span>fflib_MatcherDefinitions.ListContains</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                ListContains matcher: checks if the supplied argument is equal (==) to any of the elements in a specified list
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class ListContains implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_ListContains">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.ListContains Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Object toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.ListContains Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.ListContains.ListContains">
+                      ListContains (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      ListContains constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.ListContains.ListContains">
+                    <span>ListContains(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    ListContains constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public ListContains(Object toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Object</code>
+                  </div>
+                  <div class="param-description">The list of objects to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.ListContains A new ListContains instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.ListContains Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.ListContains.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.ListContains.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.ListContains.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.ListContains.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.ListIsEmpty">
+              <span>fflib_MatcherDefinitions.ListIsEmpty</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                ListIsEmpty matcher: checks if the supplied argument is an empty list
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class ListIsEmpty implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.ListIsEmpty Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.ListIsEmpty.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.ListIsEmpty.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.ListIsEmpty.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.ListIsEmpty.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.RefEq">
+              <span>fflib_MatcherDefinitions.RefEq</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                RefEq matcher: checks if the supplied argument is a reference to the same object (===) as a specified object
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class RefEq implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_RefEq">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.RefEq Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Object toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.RefEq Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.RefEq.RefEq">
+                      RefEq (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      RefEq constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.RefEq.RefEq">
+                    <span>RefEq(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    RefEq constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public RefEq(Object toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Object</code>
+                  </div>
+                  <div class="param-description">The object to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.RefEq A new RefEq instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.RefEq Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.RefEq.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.RefEq.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.RefEq.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.RefEq.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.SObjectOfType">
+              <span>fflib_MatcherDefinitions.SObjectOfType</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                SObjectOfType matcher: checks if the supplied argument has the specified SObjectType
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class SObjectOfType implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_SObjectOfType">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.SObjectOfType Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>objectType</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Schema.SObjectType objectType
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectOfType Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectOfType.SObjectOfType">
+                      SObjectOfType (objectType)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      SObjectOfType constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectOfType.SObjectOfType">
+                    <span>SObjectOfType(objectType)</span>
+                  </h4>
+                  <div class="method-description">
+                    SObjectOfType constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectOfType(Schema.SObjectType objectType)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">objectType</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.SObjectType</code>
+                  </div>
+                  <div class="param-description">The SObjectType to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.SObjectOfType A new SObjectOfType instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectOfType Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectOfType.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectOfType.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectOfType.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectOfType.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.SObjectsWith">
+              <span>fflib_MatcherDefinitions.SObjectsWith</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                SObjectsWith matcher: compares the supplied list&lt;Sobject&gt; argument against a list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt;, representing fields and their expected values. Each list element represents one Sobject in a list supplied to a mocked method that accepts list&lt;SObject&gt;. Each list element that is a map&lt;Schema.SobjectField,Object&gt; is compared against the equivalent argument list element position Example: You use uow.registerNew(someListofAccounts). You mock uow in the testmethod. toMatch is new list&lt;Schema.SObjectField,Object&gt; { new map&lt;Schema.SobjectField,Object&gt; {Account.Name =&gt; &#39;foo&#39;}, new map&lt;Schema.SobjectField,Object&gt; {Account.Name =&gt; &#39;bar&#39;} } By default, matchers compare against argument elements in order, viz: The matcher will compare the first Account in the list passed to uow.registerNew to the first map of field values (i.e. Account[0].Name must be &#39;foo&#39;) The matcher then compares the second Account in the list passed to uow.registerNew to the second map of field values (i.e. Account[1].Name must be &#39;bar&#39;) Optional second argument matchInOrderr if false means that each argument element is compared against all matcher elements if everuy argument is matched exactly once and no matcher matches more than once, then the match is true If the arity of the list passed in the mocked method doesn&#39;t agree with the arity of the map of expected field values, false is returned Note. this method silently catches exceptions getting values for the supplied fields from the arguments supplied in method calls. If your matcher is mysteriously failing for your SObject record, it may be getting silent &#39;SObject row was retrieved via SOQL without querying the requested field&#39; exceptions, because you haven&#39;t queried all of the fields used in this matcher.
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class SObjectsWith implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_SObjectsWith">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.SObjectsWith Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>matchInOrder</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean matchInOrder
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt; toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectsWith Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectsWith.SObjectsWith">
+                      SObjectsWith (toMatch, matchInOrder)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      SObjectsWith constructor
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectsWith.SObjectsWith_1">
+                      SObjectsWith (toMatch)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectsWith.SObjectsWith">
+                    <span>SObjectsWith(toMatch, matchInOrder)</span>
+                  </h4>
+                  <div class="method-description">
+                    SObjectsWith constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectsWith(list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt; toMatch, Boolean matchInOrder)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt;</code>
+                  </div>
+                  <div class="param-description">A list of maps of fields to their values to be compared. We compare each of these fields against the supplied list of sobject&#39;s field values.</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.SObjectWith A new SObjectWith instance
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectsWith.SObjectsWith_1">
+                    <span>SObjectsWith(toMatch)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectsWith(list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt; toMatch)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectsWith Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectsWith.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectsWith.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectsWith.validate">
+                      validate (arg)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectsWith.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectsWith.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectsWith.validate">
+                    <span>validate(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt; validate(list&lt;Map&lt;Schema.SObjectField, Object&gt;&gt; arg)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.SObjectWith">
+              <span>fflib_MatcherDefinitions.SObjectWith</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                SObjectWith matcher: compares the supplied argument against a Map&lt;Schema.SObjectField, Object&gt;, representing fields and their expected values. Note. this method silently catches exceptions getting values for the supplied fields from the arguments supplied in method calls. If your matcher is mysteriously failing for your SObject record, it may be getting silent &#39;SObject row was retrieved via SOQL without querying the requested field&#39; exceptions, because you haven&#39;t queried all of the fields used in this matcher.
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class SObjectWith implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_SObjectWith">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.SObjectWith Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Map&lt;Schema.SObjectField, Object&gt; toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectWith Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWith.SObjectWith">
+                      SObjectWith (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      SObjectWith constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWith.SObjectWith">
+                    <span>SObjectWith(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    SObjectWith constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectWith(Map&lt;Schema.SObjectField, Object&gt; toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Map&lt;Schema.SObjectField, Object&gt;</code>
+                  </div>
+                  <div class="param-description">A map of fields to their values to be compared. We compare each of these fields against the supplied sobject&#39;s field values.</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.SObjectWith A new SObjectWith instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectWith Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWith.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWith.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWith.validate">
+                      validate (arg)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWith.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWith.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWith.validate">
+                    <span>validate(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private Map&lt;Schema.SObjectField, Object&gt; validate(Map&lt;Schema.SObjectField, Object&gt; arg)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.SObjectWithId">
+              <span>fflib_MatcherDefinitions.SObjectWithId</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                SObjectWithId matcher: checks if the supplied argument has the specified Id
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class SObjectWithId implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_SObjectWithId">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.SObjectWithId Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Id toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectWithId Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWithId.SObjectWithId">
+                      SObjectWithId (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      SObjectWithId constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWithId.SObjectWithId">
+                    <span>SObjectWithId(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    SObjectWithId constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectWithId(Id toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Id</code>
+                  </div>
+                  <div class="param-description">The Id to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.SObjectWithId A new SObjectWithId instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectWithId Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWithId.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWithId.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWithId.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWithId.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.SObjectWithName">
+              <span>fflib_MatcherDefinitions.SObjectWithName</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                SObjectWithName matcher: checks if the supplied argument has the specified Name
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class SObjectWithName implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_SObjectWithName">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.SObjectWithName Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectWithName Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWithName.SObjectWithName">
+                      SObjectWithName (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      SObjectWithName constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWithName.SObjectWithName">
+                    <span>SObjectWithName(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    SObjectWithName constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectWithName(String toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The name to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.SObjectWithName A new SObjectWithName instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.SObjectWithName Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWithName.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.SObjectWithName.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWithName.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.SObjectWithName.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.StringContains">
+              <span>fflib_MatcherDefinitions.StringContains</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                StringContains matcher: checks if the supplied argument contains the specified substring
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class StringContains implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_StringContains">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.StringContains Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringContains Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringContains.StringContains">
+                      StringContains (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      StringContains constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringContains.StringContains">
+                    <span>StringContains(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    StringContains constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public StringContains(String toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The substring to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.StringContains A new StringContains instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringContains Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringContains.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringContains.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringContains.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringContains.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.StringEndsWith">
+              <span>fflib_MatcherDefinitions.StringEndsWith</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                StringEndsWith matcher: checks if the supplied argument ends with the specified substring
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class StringEndsWith implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_StringEndsWith">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.StringEndsWith Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringEndsWith Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringEndsWith.StringEndsWith">
+                      StringEndsWith (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      StringEndsWith constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringEndsWith.StringEndsWith">
+                    <span>StringEndsWith(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    StringEndsWith constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public StringEndsWith(String toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The substring to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.StringEndsWith A new StringEndsWith instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringEndsWith Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringEndsWith.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringEndsWith.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringEndsWith.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringEndsWith.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.StringIsBlank">
+              <span>fflib_MatcherDefinitions.StringIsBlank</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                StringIsBlank matcher: checks if the supplied argument is a blank String
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class StringIsBlank implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringIsBlank Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringIsBlank.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringIsBlank.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringIsBlank.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringIsBlank.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.StringIsNotBlank">
+              <span>fflib_MatcherDefinitions.StringIsNotBlank</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                StringIsNotBlank matcher: checks if the supplied argument is a non-blank string
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class StringIsNotBlank implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringIsNotBlank Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringIsNotBlank.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringIsNotBlank.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringIsNotBlank.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringIsNotBlank.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.StringMatches">
+              <span>fflib_MatcherDefinitions.StringMatches</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                StringMatches matcher: checks if the supplied argument matches the specified regex expression
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class StringMatches implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_StringMatches">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.StringMatches Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>pat</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Pattern pat
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>regEx</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private final String regEx
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringMatches Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringMatches.StringMatches">
+                      StringMatches (regEx)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      StringMatches constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringMatches.StringMatches">
+                    <span>StringMatches(regEx)</span>
+                  </h4>
+                  <div class="method-description">
+                    StringMatches constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public StringMatches(String regEx)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-description">The substring to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.StringMatches A new StringMatches instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringMatches Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringMatches.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringMatches.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringMatches.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringMatches.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_MatcherDefinitions.StringStartsWith">
+              <span>fflib_MatcherDefinitions.StringStartsWith</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                StringStartsWith matcher: checks if the supplied argument starts with the specified substring
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class StringStartsWith implements fflib_IMatcher
+              </div>
+            </div>
+            <div class="subsection properties fflib_MatcherDefinitions_StringStartsWith">
+              <h3 class="subsection-title properties">fflib_MatcherDefinitions.StringStartsWith Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>toMatch</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String toMatch
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringStartsWith Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringStartsWith.StringStartsWith">
+                      StringStartsWith (toMatch)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      StringStartsWith constructor
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringStartsWith.StringStartsWith">
+                    <span>StringStartsWith(toMatch)</span>
+                  </h4>
+                  <div class="method-description">
+                    StringStartsWith constructor
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public StringStartsWith(String toMatch)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">toMatch</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The substring to be compared</div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    fflib_MatcherDefinitions.StringStartsWith A new StringStartsWith instance
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_MatcherDefinitions.StringStartsWith Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringStartsWith.matches">
+                      matches (arg)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_MatcherDefinitions.StringStartsWith.toString">
+                      toString ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringStartsWith.matches">
+                    <span>matches(arg)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean matches(Object arg)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_MatcherDefinitions.StringStartsWith.toString">
+                    <span>toString()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String toString()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+
+          <div>
+            <a href="https://github.com/no-stack-dub-sack/apexdox-vs-code" target="_blank" rel="noopener noreferrer">
+              Powered By ApexDox VS Code
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>
