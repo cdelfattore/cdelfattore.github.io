@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Apex Documentation</title>
+    <meta charset="UTF-8">
+    <script type="module" src="./assets/index.js"></script>
+    <script type="module" src="./assets/search-idx.js"></script>
+    <script type="module" src="./assets/search.js"></script>
+    <script charset="UTF-8" src="./assets/highlight.js"></script>
+    <script charset="UTF-8" src="./assets/mark.js"></script>
+    <script charset="UTF-8" src="./assets/lunr.js"></script>
+    <link rel="stylesheet" href="./assets/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/index.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+  </head>
+
+  <body>
+    <div id="side-bar">
+
+      <div id="logo-container">
+        <div class="title">
+          Apex Documentation
+        </div>
+        <img src="assets/logo.png" />
+        <div class="subtitle">
+          Powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/no-stack-dub-sack/apexdox-vs-code">ApexDox VS Code</a>
+        </div>
+      </div>
+      <div id="search-wrapper">
+        <div class="search-icon"></div>
+        <input id="search-input" type="text" autocomplete="off" placeholder="Search...">
+      </div>
+      <ul id="search-results" class=""></ul>
+      <div class="navbar">
+        <nav role="navigation">
+          <a class="nav-header" id="home" href="javascript:void(0)" onclick="goToLocation('index.html');">
+            Home
+          </a>
+          <details id="Core" class="group-name">
+            <summary id="header-Core" class="nav-header">
+              <span>Core</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_Answer" id="item-fflib_Answer" class="nav-item class public" onclick="goToLocation('fflib_Answer.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Answer</a>
+              </li>
+              <li title="fflib_AnyOrder" id="item-fflib_AnyOrder" class="nav-item class public" onclick="goToLocation('fflib_AnyOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrder</a>
+              </li>
+              <li title="fflib_ApexMocks" id="item-fflib_ApexMocks" class="nav-item class public" onclick="goToLocation('fflib_ApexMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocks</a>
+              </li>
+              <li title="fflib_ArgumentCaptor" id="item-fflib_ArgumentCaptor" class="nav-item class public" onclick="goToLocation('fflib_ArgumentCaptor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptor</a>
+              </li>
+              <li title="fflib_InOrder" id="item-fflib_InOrder" class="nav-item class public" onclick="goToLocation('fflib_InOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrder</a>
+              </li>
+              <li title="fflib_InvocationOnMock" id="item-fflib_InvocationOnMock" class="nav-item class public" onclick="goToLocation('fflib_InvocationOnMock.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InvocationOnMock</a>
+              </li>
+              <li title="fflib_MethodCountRecorder" id="item-fflib_MethodCountRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodCountRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodCountRecorder</a>
+              </li>
+              <li title="fflib_MethodReturnValue" id="item-fflib_MethodReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValue</a>
+              </li>
+              <li title="fflib_MethodReturnValueRecorder" id="item-fflib_MethodReturnValueRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValueRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValueRecorder</a>
+              </li>
+              <li title="fflib_MethodVerifier" id="item-fflib_MethodVerifier" class="nav-item class public" onclick="goToLocation('fflib_MethodVerifier.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodVerifier</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValues" id="item-fflib_QualifiedMethodAndArgValues" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValues</a>
+              </li>
+              <li title="fflib_System" id="item-fflib_System" class="nav-item class public" onclick="goToLocation('fflib_System.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_System</a>
+              </li>
+              <li title="fflib_VerificationMode" id="item-fflib_VerificationMode" class="nav-item class public" onclick="goToLocation('fflib_VerificationMode.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_VerificationMode</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Miscellaneous" class="group-name">
+            <summary id="header-Miscellaneous" class="nav-header">
+              <span>Miscellaneous</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_AnswerTest" id="item-fflib_AnswerTest" class="nav-item class private" onclick="goToLocation('fflib_AnswerTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnswerTest</a>
+              </li>
+              <li title="fflib_AnyOrderTest" id="item-fflib_AnyOrderTest" class="nav-item class private" onclick="goToLocation('fflib_AnyOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrderTest</a>
+              </li>
+              <li title="fflib_ApexMocksConfig" id="item-fflib_ApexMocksConfig" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksConfig.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksConfig</a>
+              </li>
+              <li title="fflib_ApexMocksTest" id="item-fflib_ApexMocksTest" class="nav-item class private" onclick="goToLocation('fflib_ApexMocksTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksTest</a>
+              </li>
+              <li title="fflib_ApexMocksUtils" id="item-fflib_ApexMocksUtils" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtils</a>
+              </li>
+              <li title="fflib_ApexMocksUtilsTest" id="item-fflib_ApexMocksUtilsTest" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtilsTest</a>
+              </li>
+              <li title="fflib_Application" id="item-fflib_Application" class="nav-item class public" onclick="goToLocation('fflib_Application.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Application</a>
+              </li>
+              <li title="fflib_ApplicationTest" id="item-fflib_ApplicationTest" class="nav-item class private" onclick="goToLocation('fflib_ApplicationTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApplicationTest</a>
+              </li>
+              <li title="fflib_ArgumentCaptorTest" id="item-fflib_ArgumentCaptorTest" class="nav-item class private" onclick="goToLocation('fflib_ArgumentCaptorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptorTest</a>
+              </li>
+              <li title="fflib_IDGenerator" id="item-fflib_IDGenerator" class="nav-item class public" onclick="goToLocation('fflib_IDGenerator.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGenerator</a>
+              </li>
+              <li title="fflib_IDGeneratorTest" id="item-fflib_IDGeneratorTest" class="nav-item class private" onclick="goToLocation('fflib_IDGeneratorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGeneratorTest</a>
+              </li>
+              <li title="fflib_IDomain" id="item-fflib_IDomain" class="nav-item class public" onclick="goToLocation('fflib_IDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomain</a>
+              </li>
+              <li title="fflib_IDomainConstructor" id="item-fflib_IDomainConstructor" class="nav-item class public" onclick="goToLocation('fflib_IDomainConstructor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainConstructor</a>
+              </li>
+              <li title="fflib_IDomainFactory" id="item-fflib_IDomainFactory" class="nav-item class public" onclick="goToLocation('fflib_IDomainFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainFactory</a>
+              </li>
+              <li title="fflib_IMatcher" id="item-fflib_IMatcher" class="nav-item class public" onclick="goToLocation('fflib_IMatcher.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IMatcher</a>
+              </li>
+              <li title="fflib_Inheritor" id="item-fflib_Inheritor" class="nav-item class public" onclick="goToLocation('fflib_Inheritor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Inheritor</a>
+              </li>
+              <li title="fflib_InheritorTest" id="item-fflib_InheritorTest" class="nav-item class public" onclick="goToLocation('fflib_InheritorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InheritorTest</a>
+              </li>
+              <li title="fflib_InOrderTest" id="item-fflib_InOrderTest" class="nav-item class private" onclick="goToLocation('fflib_InOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrderTest</a>
+              </li>
+              <li title="fflib_IObjects" id="item-fflib_IObjects" class="nav-item class public" onclick="goToLocation('fflib_IObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IObjects</a>
+              </li>
+              <li title="fflib_ISelectorFactory" id="item-fflib_ISelectorFactory" class="nav-item class public" onclick="goToLocation('fflib_ISelectorFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISelectorFactory</a>
+              </li>
+              <li title="fflib_IServiceFactory" id="item-fflib_IServiceFactory" class="nav-item class public" onclick="goToLocation('fflib_IServiceFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IServiceFactory</a>
+              </li>
+              <li title="fflib_ISObjectDomain" id="item-fflib_ISObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_ISObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectDomain</a>
+              </li>
+              <li title="fflib_ISObjects" id="item-fflib_ISObjects" class="nav-item class public" onclick="goToLocation('fflib_ISObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjects</a>
+              </li>
+              <li title="fflib_ISObjectSelector" id="item-fflib_ISObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_ISObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectSelector</a>
+              </li>
+              <li title="fflib_ISObjectUnitOfWork" id="item-fflib_ISObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_ISObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_IUnitOfWorkFactory" id="item-fflib_IUnitOfWorkFactory" class="nav-item class public" onclick="goToLocation('fflib_IUnitOfWorkFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IUnitOfWorkFactory</a>
+              </li>
+              <li title="fflib_Match" id="item-fflib_Match" class="nav-item class public" onclick="goToLocation('fflib_Match.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Match</a>
+              </li>
+              <li title="fflib_MatcherDefinitions" id="item-fflib_MatcherDefinitions" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitions.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitions</a>
+              </li>
+              <li title="fflib_MatcherDefinitionsTest" id="item-fflib_MatcherDefinitionsTest" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitionsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitionsTest</a>
+              </li>
+              <li title="fflib_MatchersReturnValue" id="item-fflib_MatchersReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MatchersReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchersReturnValue</a>
+              </li>
+              <li title="fflib_MatchTest" id="item-fflib_MatchTest" class="nav-item class public" onclick="goToLocation('fflib_MatchTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchTest</a>
+              </li>
+              <li title="fflib_MethodArgValues" id="item-fflib_MethodArgValues" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValues</a>
+              </li>
+              <li title="fflib_MethodArgValuesTest" id="item-fflib_MethodArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValuesTest</a>
+              </li>
+              <li title="fflib_Mocks" id="item-fflib_Mocks" class="nav-item class public" onclick="goToLocation('fflib_Mocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Mocks</a>
+              </li>
+              <li title="fflib_MyList" id="item-fflib_MyList" class="nav-item class public" onclick="goToLocation('fflib_MyList.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MyList</a>
+              </li>
+              <li title="fflib_Objects" id="item-fflib_Objects" class="nav-item class public" onclick="goToLocation('fflib_Objects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Objects</a>
+              </li>
+              <li title="fflib_ObjectsTest" id="item-fflib_ObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_ObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ObjectsTest</a>
+              </li>
+              <li title="fflib_QualifiedMethod" id="item-fflib_QualifiedMethod" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethod.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethod</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValuesTest" id="item-fflib_QualifiedMethodAndArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValuesTest</a>
+              </li>
+              <li title="fflib_QualifiedMethodTest" id="item-fflib_QualifiedMethodTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodTest</a>
+              </li>
+              <li title="fflib_QueryFactory" id="item-fflib_QueryFactory" class="nav-item class public" onclick="goToLocation('fflib_QueryFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactory</a>
+              </li>
+              <li title="fflib_QueryFactoryTest" id="item-fflib_QueryFactoryTest" class="nav-item class private" onclick="goToLocation('fflib_QueryFactoryTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactoryTest</a>
+              </li>
+              <li title="fflib_SecurityUtils" id="item-fflib_SecurityUtils" class="nav-item class public" onclick="goToLocation('fflib_SecurityUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtils</a>
+              </li>
+              <li title="fflib_SecurityUtilsTest" id="item-fflib_SecurityUtilsTest" class="nav-item class private" onclick="goToLocation('fflib_SecurityUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtilsTest</a>
+              </li>
+              <li title="fflib_SObjectDescribe" id="item-fflib_SObjectDescribe" class="nav-item class public" onclick="goToLocation('fflib_SObjectDescribe.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribe</a>
+              </li>
+              <li title="fflib_SObjectDescribeTest" id="item-fflib_SObjectDescribeTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDescribeTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribeTest</a>
+              </li>
+              <li title="fflib_SObjectDomain" id="item-fflib_SObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_SObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomain</a>
+              </li>
+              <li title="fflib_SObjectDomainTest" id="item-fflib_SObjectDomainTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDomainTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomainTest</a>
+              </li>
+              <li title="fflib_SObjectMocks" id="item-fflib_SObjectMocks" class="nav-item class public" onclick="goToLocation('fflib_SObjectMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectMocks</a>
+              </li>
+              <li title="fflib_SObjects" id="item-fflib_SObjects" class="nav-item class public" onclick="goToLocation('fflib_SObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjects</a>
+              </li>
+              <li title="fflib_SObjectSelector" id="item-fflib_SObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_SObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelector</a>
+              </li>
+              <li title="fflib_SObjectSelectorTest" id="item-fflib_SObjectSelectorTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectSelectorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelectorTest</a>
+              </li>
+              <li title="fflib_SObjectsTest" id="item-fflib_SObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectsTest</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWork" id="item-fflib_SObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_SObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWorkTest" id="item-fflib_SObjectUnitOfWorkTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectUnitOfWorkTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWorkTest</a>
+              </li>
+              <li title="fflib_StringBuilder" id="item-fflib_StringBuilder" class="nav-item class public" onclick="goToLocation('fflib_StringBuilder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilder</a>
+              </li>
+              <li title="fflib_StringBuilderTest" id="item-fflib_StringBuilderTest" class="nav-item class private" onclick="goToLocation('fflib_StringBuilderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilderTest</a>
+              </li>
+              <li title="fflib_SystemTest" id="item-fflib_SystemTest" class="nav-item class private" onclick="goToLocation('fflib_SystemTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SystemTest</a>
+              </li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+    </div>
+    <table id="content">
+      <tr>
+        <td class="scoping-panel">
+          Show: <input type="checkbox" checked="true" id="cbx-all" onclick="toggleAllScopes(this.checked);" />
+          <label for="cbx-all">All</label>&nbsp;&nbsp;
+          <input type="checkbox" checked="true" id="cbx-global" onclick="toggleScope('global', this.checked);" />
+          <label for="cbx-global">
+            global
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-public" onclick="toggleScope('public', this.checked);" />
+          <label for="cbx-public">
+            public
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-protected" onclick="toggleScope('protected', this.checked);" />
+          <label for="cbx-protected">
+            protected
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-private" onclick="toggleScope('private', this.checked);" />
+          <label for="cbx-private">
+            private
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-testmethod" onclick="toggleScope('testmethod', this.checked);" />
+          <label for="cbx-testmethod">
+            testMethod
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-webservice" onclick="toggleScope('webservice', this.checked);" />
+          <label for="cbx-webservice">
+            webService
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td class="doc-page">
+
+          <div class="section">
+
+            <h2 class="class-title top-level-type" id="fflib_QueryFactory">
+              <span>fflib_QueryFactory</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Copyright (c), FinancialForce.com, inc All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. - Neither the name of the FinancialForce.com, inc nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class fflib_QueryFactory
+              </div>
+            </div>
+            <div class="subsection properties fflib_QueryFactory">
+              <h3 class="subsection-title properties">fflib_QueryFactory Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+                  <th>Annotations</th>
+                  <th>Description</th>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>allRows</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean allRows
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>conditionExpression</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String conditionExpression
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>fields</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Set&lt;String&gt; fields
+                    </div>
+                  </td>
+                  <td>
+                    <div class="prop-annotations">@TestVisible</div>
+                  </td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>limitCount</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Integer limitCount
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>mFlsEnforcement</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private FLSEnforcement mFlsEnforcement
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    Integrate checking for READ Field Level Security within the selectField(s) methods This can optionally be enforced (or not) by calling the setEnforceFLS method prior to calling one of the selectField or selectFieldset methods.
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>offsetCount</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Integer offsetCount
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>order</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private List&lt;Ordering&gt; order
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>relationship</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Schema.ChildRelationship relationship
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    The relationship and subselectQueryMap variables are used to support subselect queries. Subselects can be added to a query, as long as it isn&#39;t a subselect query itself. You may have many subselects inside a query, but they may only be 1 level deep (no subselect inside a subselect) to add a subselect, call the subselectQuery method, passing in the ChildRelationship.
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>sortSelectFields</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean sortSelectFields
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>subselectQueryMap</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Map&lt;Schema.ChildRelationship, fflib_QueryFactory&gt; subselectQueryMap
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>table</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public Schema.SObjectType table
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    This property is read-only and may not be set after instantiation. The <span title="A valid link could not be created with this identifier.">Schema.SObjectType</span> token of the SObject that will be used in the FROM clause of the resultant query.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="subsection enums">
+              <h3 class="subsection-title enums">Enums</h3>
+              <table class="attributes-table enums">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+                  <th>Values</th>
+
+                </tr>
+                <tr class="enum public">
+                  <td class="attribute-name"><span>FLSEnforcement</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public enum FLSEnforcement
+                    </div>
+                  </td>
+                  <td class="enum-values">NONE,&nbsp;LEGACY,&nbsp;USER_MODE,&nbsp;SYSTEM_MODE</td>
+
+                </tr>
+                <tr class="enum public">
+                  <td class="attribute-name"><span>SortOrder</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public enum SortOrder
+                    </div>
+                  </td>
+                  <td class="enum-values">ASCENDING,&nbsp;DESCENDING</td>
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_QueryFactory Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.fflib_QueryFactory">
+                      fflib_QueryFactory (table)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Construct a new fflib_QueryFactory instance with no options other than the FROM clause. You *must* call selectField(s) before <span title="A valid link could not be created with this identifier.">#toSOQL</span> will return a valid, runnable query.
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.fflib_QueryFactory_1">
+                      fflib_QueryFactory (relationship)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Construct a new fflib_QueryFactory instance with no options other than the FROM clause and the relationship. This should be used when constructing a subquery query for addition to a parent query. Objects created with this constructor cannot be added to another object using the subselectQuery method. You *must* call selectField(s) before <span title="A valid link could not be created with this identifier.">#toSOQL</span> will return a valid, runnable query.
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.fflib_QueryFactory">
+                    <span>fflib_QueryFactory(table)</span>
+                  </h4>
+                  <div class="method-description">
+                    Construct a new fflib_QueryFactory instance with no options other than the FROM clause. You *must* call selectField(s) before <span title="A valid link could not be created with this identifier.">#toSOQL</span> will return a valid, runnable query.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory(Schema.SObjectType table)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">table</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.SObjectType</code>
+                  </div>
+                  <div class="param-description">the SObject to be used in the FROM clause of the resultant query. This sets the value of {@link #table}.</div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.fflib_QueryFactory_1">
+                    <span>fflib_QueryFactory(relationship)</span>
+                  </h4>
+                  <div class="method-description">
+                    Construct a new fflib_QueryFactory instance with no options other than the FROM clause and the relationship. This should be used when constructing a subquery query for addition to a parent query. Objects created with this constructor cannot be added to another object using the subselectQuery method. You *must* call selectField(s) before <span title="A valid link could not be created with this identifier.">#toSOQL</span> will return a valid, runnable query.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private fflib_QueryFactory(Schema.ChildRelationship relationship)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationship</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.ChildRelationship</code>
+                  </div>
+                  <div class="param-description">the ChildRelationship to be used in the FROM Clause of the resultant Query (when set overrides value of table). This sets the value of {@link #relationship} and {@link #table}.</div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_QueryFactory Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.addField">
+                      addField (fieldPath)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.addOrdering">
+                      addOrdering (o)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.addOrdering_1">
+                      addOrdering (fieldName, direction, nullsLast)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.addOrdering_2">
+                      addOrdering (field, direction, nullsLast)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.addOrdering_3">
+                      addOrdering (fieldName, direction)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in. The &quot;NULLS FIRST&quot; keywords will be included by default. If &quot;NULLS LAST&quot; is required, use one of the overloaded addOrdering methods which include this parameter.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.addOrdering_4">
+                      addOrdering (field, direction)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in. The &quot;NULLS FIRST&quot; keywords will be included by default. If &quot;NULLS LAST&quot; is required, use one of the overloaded addOrdering methods which include this parameter.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.assertIsAccessible">
+                      assertIsAccessible ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      This method checks to see if the User has Read Access on <span title="A valid link could not be created with this identifier.">#table</span>. Asserts true if User has access.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.deepClone">
+                      deepClone ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Create a &quot;deep&quot; clone of this object that can be safely mutated without affecting the cloned instance
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.equals">
+                      equals (obj)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      fflib_QueryFactory instances will be considered equal if they produce the same SOQL query. A faster comparison will first be attempted to check if they apply to the same table, and contain the same number of fields selected. This method will never return true if the provided object is not an instance of fflib_QueryFactory.
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getChildRelationship">
+                      getChildRelationship (objType)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Get the ChildRelationship from the Table for the object type passed in.
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getChildRelationship_1">
+                      getChildRelationship (relationshipName)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Get the ChildRelationship from the Table for the relationship name passed in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getCondition">
+                      getCondition ()
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getFieldPath">
+                      getFieldPath (fieldName, relatedSObjectType)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getFieldPath_1">
+                      getFieldPath (fieldName)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getFieldTokenPath">
+                      getFieldTokenPath (field)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getLimit">
+                      getLimit ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getOffset">
+                      getOffset ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getOrderings">
+                      getOrderings ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getSelectedFields">
+                      getSelectedFields ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.getSubselectQueries">
+                      getSubselectQueries ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectField">
+                      selectField (fieldName)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects a single field from the SObject specified in <span title="A valid link could not be created with this identifier.">#table</span>. Selecting fields is idempotent, if this field is already selected calling this method will have no additional impact.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectField_1">
+                      selectField (fieldName, relatedObjectType)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects a single field from the SObject specified in <span title="A valid link could not be created with this identifier.">#table</span>. Selecting fields is idempotent, if this field is already selected calling this method will have no additional impact.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectField_2">
+                      selectField (field)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects a field, avoiding the possible ambiguity of String API names.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectFields">
+                      selectFields (fieldNames)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(String)</span> multiple times.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectFields_1">
+                      selectFields (fieldNames)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(String)</span> multiple times.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectFields_2">
+                      selectFields (fields)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(Schema.SObjectField)</span> multiple times.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectFields_3">
+                      selectFields (fields)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(Schema.SObjectField)</span> multiple times.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectFieldSet">
+                      selectFieldSet (fieldSet)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectFieldSet_1">
+                      selectFieldSet (fieldSet, allowCrossObject)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      This is equivalent to iterating the fields in the field set and calling <span title="A valid link could not be created with this identifier.">#selectField(String)</span> on each.
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectSObjectFields">
+                      selectSObjectFields (iter)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.selectStringField">
+                      selectStringField (iter)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setAllRows">
+                      setAllRows ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      whether an ALL ROWS clause will be added to the resulting query
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setCondition">
+                      setCondition (conditionExpression)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      With the introduction of SYSTEM_MODE and USER_MODE, it no longer became necessary to use DescribeFieldResult methods to resolve a selected field back to its canonical case-preserving field definition. The consequence is that duplicate fields could be introduced into the SELECT clause if, for instance, the Apex code called &quot;selectField(&#39;annualrevenue&#39;)&quot; but that same AnnualRevenue field were included via a Field Set and the FieldSetMember.getFieldPath() returns &quot;AnnualRevenue&quot; So, in the cases where we&#39;re using USER_MODE or SYSTEM_MODE, we need to downcase all of the fields in the Set
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry deprecated" href="#fflib_QueryFactory.setEnforceFLS">
+                      setEnforceFLS (enforce)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      This method sets a flag to indicate that this query should have FLS Read permission enforced. If this method is not called, the default behavior is that FLS read permission will not be checked.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setEnforceFLS_1">
+                      setEnforceFLS (enforcement)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setLimit">
+                      setLimit (limitCount)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setOffset">
+                      setOffset (offsetCount)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setOrdering">
+                      setOrdering (o)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setOrdering_1">
+                      setOrdering (fieldName, direction, nullsLast)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setOrdering_2">
+                      setOrdering (field, direction, nullsLast)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setOrdering_3">
+                      setOrdering (fieldName, direction)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setOrdering_4">
+                      setOrdering (field, direction)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setSortSelectFields">
+                      setSortSelectFields (doSort)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Sets a flag to indicate that this query should have ordered query fields in the select statement (this at a small cost to performance). If you are processing large query sets, you should switch this off.
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.setSubselectQuery">
+                      setSubselectQuery (relationship, assertIsAccessible)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry deprecated" href="#fflib_QueryFactory.subselectQuery">
+                      subselectQuery (related)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry deprecated" href="#fflib_QueryFactory.subselectQuery_1">
+                      subselectQuery (related, assertIsAccessible)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.subselectQuery_2">
+                      subselectQuery (relationshipName)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationshipName already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.subselectQuery_3">
+                      subselectQuery (relationshipName, assertIsAccessible)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.subselectQuery_4">
+                      subselectQuery (relationship)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationshipName already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.subselectQuery_5">
+                      subselectQuery (relationship, assertIsAccessible)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.toSOQL">
+                      toSOQL ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Convert the values provided to this instance into a full SOQL string for use with Database.query Check to see if subqueries queries need to be added after the field list.
+                    </div>
+                  </li>
+                </ul>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.addField">
+                    <span>addField(fieldPath)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private void addField(String fieldPath)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.addOrdering">
+                    <span>addOrdering(o)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory addOrdering(Ordering o)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">o</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Ordering</code>
+                  </div>
+                  <div class="param-description">an instance of {@link fflib_QueryFactory.Ordering} to be added to the query&#39;s ORDER BY clause.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.addOrdering_1">
+                    <span>addOrdering(fieldName, direction, nullsLast)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory addOrdering(String fieldName, SortOrder direction, Boolean nullsLast)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The string value of the field to be sorted on</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                  <div class="param-name">nullsLast</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">whether to sort null values last (NULLS LAST keyword included).</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.addOrdering_2">
+                    <span>addOrdering(field, direction, nullsLast)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory addOrdering(SObjectField field, SortOrder direction, Boolean nullsLast)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">field</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectField</code>
+                  </div>
+                  <div class="param-description">The SObjectField to sort. This can only be a direct reference.</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                  <div class="param-name">nullsLast</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">whether to sort null values last (NULLS LAST keyword included).</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.addOrdering_3">
+                    <span>addOrdering(fieldName, direction)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in. The &quot;NULLS FIRST&quot; keywords will be included by default. If &quot;NULLS LAST&quot; is required, use one of the overloaded addOrdering methods which include this parameter.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory addOrdering(String fieldName, SortOrder direction)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The string value of the field to be sorted on</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.addOrdering_4">
+                    <span>addOrdering(field, direction)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in. The &quot;NULLS FIRST&quot; keywords will be included by default. If &quot;NULLS LAST&quot; is required, use one of the overloaded addOrdering methods which include this parameter.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory addOrdering(SObjectField field, SortOrder direction)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">field</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectField</code>
+                  </div>
+                  <div class="param-description">The SObjectField to sort. This can only be a direct reference.</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.assertIsAccessible">
+                    <span>assertIsAccessible()</span>
+                  </h4>
+                  <div class="method-description">
+                    This method checks to see if the User has Read Access on <span title="A valid link could not be created with this identifier.">#table</span>. Asserts true if User has access.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory assertIsAccessible()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.deepClone">
+                    <span>deepClone()</span>
+                  </h4>
+                  <div class="method-description">
+                    Create a &quot;deep&quot; clone of this object that can be safely mutated without affecting the cloned instance
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory deepClone()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    a deep clone of this fflib_QueryFactory
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.equals">
+                    <span>equals(obj)</span>
+                  </h4>
+                  <div class="method-description">
+                    fflib_QueryFactory instances will be considered equal if they produce the same SOQL query. A faster comparison will first be attempted to check if they apply to the same table, and contain the same number of fields selected. This method will never return true if the provided object is not an instance of fflib_QueryFactory.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean equals(Object obj)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">obj</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Object</code>
+                  </div>
+                  <div class="param-description">the object to check equality of.</div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.getChildRelationship">
+                    <span>getChildRelationship(objType)</span>
+                  </h4>
+                  <div class="method-description">
+                    Get the ChildRelationship from the Table for the object type passed in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private Schema.ChildRelationship getChildRelationship(SObjectType objType)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">objType</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectType</code>
+                  </div>
+                  <div class="param-description">The object type of the child relationship to get</div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.getChildRelationship_1">
+                    <span>getChildRelationship(relationshipName)</span>
+                  </h4>
+                  <div class="method-description">
+                    Get the ChildRelationship from the Table for the relationship name passed in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private Schema.ChildRelationship getChildRelationship(String relationshipName)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationshipName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The name of the object&#39;s ChildRelationship on get</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.getCondition">
+                    <span>getCondition()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public String getCondition()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    the current value of the WHERE clause, if any, as set by <span title="A valid link could not be created with this identifier.">#setCondition</span>
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.getFieldPath">
+                    <span>getFieldPath(fieldName, relatedSObjectType)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private String getFieldPath(String fieldName, Schema.sObjectType relatedSObjectType)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.getFieldPath_1">
+                    <span>getFieldPath(fieldName)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private String getFieldPath(String fieldName)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.getFieldTokenPath">
+                    <span>getFieldTokenPath(field)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@TestVisible</div>
+                  <div class="method-signature">
+                    private static String getFieldTokenPath(Schema.SObjectField field)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.getLimit">
+                    <span>getLimit()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Integer getLimit()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    the current value of the LIMIT clause, if any.
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.getOffset">
+                    <span>getOffset()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Integer getOffset()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    the current value of the OFFSET clause, if any.
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.getOrderings">
+                    <span>getOrderings()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public List&lt;Ordering&gt; getOrderings()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    the list of orderings that will be used as the query&#39;s ORDER BY clause. You may remove elements from the returned list, or otherwise mutate it, to remove previously added orderings.
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.getSelectedFields">
+                    <span>getSelectedFields()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Set&lt;String&gt; getSelectedFields()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    the selected fields
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.getSubselectQueries">
+                    <span>getSubselectQueries()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public List&lt;fflib_QueryFactory&gt; getSubselectQueries()
+                  </div>
+                  <div class="method-subtitle">
+                    Returns
+                  </div>
+                  <div class="method-subtitle-description">
+                    the list of subquery instances of fflib_QueryFactory which will be added to the SOQL as relationship/child/sub-queries.
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectField">
+                    <span>selectField(fieldName)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects a single field from the SObject specified in <span title="A valid link could not be created with this identifier.">#table</span>. Selecting fields is idempotent, if this field is already selected calling this method will have no additional impact.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectField(String fieldName)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">the API name of the field to add to the query&#39;s SELECT clause.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectField_1">
+                    <span>selectField(fieldName, relatedObjectType)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects a single field from the SObject specified in <span title="A valid link could not be created with this identifier.">#table</span>. Selecting fields is idempotent, if this field is already selected calling this method will have no additional impact.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectField(String fieldName, Schema.sObjectType relatedObjectType)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">the API name of the field to add to the query&#39;s SELECT clause.</div>
+                  <div class="param-name">relatedSObjectType</div>
+                  <div class="param-description">the related sObjectType to resolve polymorphic object fields.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectField_2">
+                    <span>selectField(field)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects a field, avoiding the possible ambiguity of String API names.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectField(Schema.SObjectField field)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">field</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.SObjectField</code>
+                  </div>
+                  <div class="param-description">the {@link Schema.SObjectField} to select with this query.</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidFieldException If the field is null {@code field}.
+                  </div>
+                  <div class="method-subtitle">
+                    See
+                  </div>
+                  <div class="method-subtitle-description">
+                    <span title="A valid link could not be created with this identifier.">#selectField(String)</span>
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectFields">
+                    <span>selectFields(fieldNames)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(String)</span> multiple times.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectFields(Set&lt;String&gt; fieldNames)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldNames</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Set&lt;String&gt;</code>
+                  </div>
+                  <div class="param-description">the Set of field API names to select.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectFields_1">
+                    <span>selectFields(fieldNames)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(String)</span> multiple times.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectFields(List&lt;String&gt; fieldNames)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldNames</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">List&lt;String&gt;</code>
+                  </div>
+                  <div class="param-description">the List of field API names to select.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectFields_2">
+                    <span>selectFields(fields)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(Schema.SObjectField)</span> multiple times.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectFields(Set&lt;Schema.SObjectField&gt; fields)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fields</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Set&lt;Schema.SObjectField&gt;</code>
+                  </div>
+                  <div class="param-description">the Set of {@link Schema.SObjectField}s to select.</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidFieldException if the fields are null {@code fields}.
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectFields_3">
+                    <span>selectFields(fields)</span>
+                  </h4>
+                  <div class="method-description">
+                    Selects multiple fields. This acts the same as calling <span title="A valid link could not be created with this identifier.">#selectField(Schema.SObjectField)</span> multiple times.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectFields(List&lt;Schema.SObjectField&gt; fields)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fields</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">List&lt;Schema.SObjectField&gt;</code>
+                  </div>
+                  <div class="param-description">the List of {@link Schema.SObjectField}s to select.</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidFieldException if the fields are null {@code fields}.
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectFieldSet">
+                    <span>selectFieldSet(fieldSet)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectFieldSet(Schema.FieldSet fieldSet)
+                  </div>
+                  <div class="method-subtitle">
+                    See
+                  </div>
+                  <div class="method-subtitle-description">
+                    <span title="A valid link could not be created with this identifier.">#selectFieldSet(Schema.FieldSet,Boolean)</span>
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectFieldSet_1">
+                    <span>selectFieldSet(fieldSet, allowCrossObject)</span>
+                  </h4>
+                  <div class="method-description">
+                    This is equivalent to iterating the fields in the field set and calling <span title="A valid link could not be created with this identifier.">#selectField(String)</span> on each.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory selectFieldSet(Schema.FieldSet fieldSet, Boolean allowCrossObject)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldSet</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.FieldSet</code>
+                  </div>
+                  <div class="param-description">Select all fields included in the field set.</div>
+                  <div class="param-name">allowCrossObject</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">if false this method will throw an exception if any fields in the field set reference fields on a related record.</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidFieldSetException if the fieldset is invalid for table {@code fields}.
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectSObjectFields">
+                    <span>selectSObjectFields(iter)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private fflib_QueryFactory selectSObjectFields(Iterator&lt;Schema.SObjectField&gt; iter)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.selectStringField">
+                    <span>selectStringField(iter)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private fflib_QueryFactory selectStringField(Iterator&lt;String&gt; iter)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setAllRows">
+                    <span>setAllRows()</span>
+                  </h4>
+                  <div class="method-description">
+                    whether an ALL ROWS clause will be added to the resulting query
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setAllRows()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setCondition">
+                    <span>setCondition(conditionExpression)</span>
+                  </h4>
+                  <div class="method-description">
+                    With the introduction of SYSTEM_MODE and USER_MODE, it no longer became necessary to use DescribeFieldResult methods to resolve a selected field back to its canonical case-preserving field definition. The consequence is that duplicate fields could be introduced into the SELECT clause if, for instance, the Apex code called &quot;selectField(&#39;annualrevenue&#39;)&quot; but that same AnnualRevenue field were included via a Field Set and the FieldSetMember.getFieldPath() returns &quot;AnnualRevenue&quot; So, in the cases where we&#39;re using USER_MODE or SYSTEM_MODE, we need to downcase all of the fields in the Set
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setCondition(String conditionExpression)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title deprecated" id="fflib_QueryFactory.setEnforceFLS">
+                    <span>setEnforceFLS(enforce)</span>
+                  </h4>
+                  <div class="method-description">
+                    This method sets a flag to indicate that this query should have FLS Read permission enforced. If this method is not called, the default behavior is that FLS read permission will not be checked.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setEnforceFLS(Boolean enforce)
+                  </div>
+                  <div class="method-subtitle deprecated">
+                    Deprecated
+                  </div>
+                  <div class="method-subtitle-description">
+                    - use the setEnforceFLS overload that specifies Legacy or Native FLS enforcement
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">enforce</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">whether to enforce field level security (read)</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setEnforceFLS_1">
+                    <span>setEnforceFLS(enforcement)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setEnforceFLS(FLSEnforcement enforcement)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setLimit">
+                    <span>setLimit(limitCount)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setLimit(Integer limitCount)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">limitCount</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Integer</code>
+                  </div>
+                  <div class="param-description">if not null causes a LIMIT clause to be added to the resulting query.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setOffset">
+                    <span>setOffset(offsetCount)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setOffset(Integer offsetCount)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">offsetCount</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Integer</code>
+                  </div>
+                  <div class="param-description">if not null causes a OFFSET clause to be added to the resulting query.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setOrdering">
+                    <span>setOrdering(o)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setOrdering(Ordering o)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">o</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Ordering</code>
+                  </div>
+                  <div class="param-description">an instance of {@link fflib_QueryFactory.Ordering} to remove all existing (for instance defaults) and be added to the query&#39;s ORDER BY clause.</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setOrdering_1">
+                    <span>setOrdering(fieldName, direction, nullsLast)</span>
+                  </h4>
+                  <div class="method-description">
+                    Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setOrdering(String fieldName, SortOrder direction, Boolean nullsLast)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The string value of the field to be sorted on</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                  <div class="param-name">nullsLast</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">whether to sort null values last (NULLS LAST keyword included).</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setOrdering_2">
+                    <span>setOrdering(field, direction, nullsLast)</span>
+                  </h4>
+                  <div class="method-description">
+                    Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setOrdering(SObjectField field, SortOrder direction, Boolean nullsLast)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">field</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectField</code>
+                  </div>
+                  <div class="param-description">The SObjectField to sort. This can only be a direct reference.</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                  <div class="param-name">nullsLast</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">whether to sort null values last (NULLS LAST keyword included).</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setOrdering_3">
+                    <span>setOrdering(fieldName, direction)</span>
+                  </h4>
+                  <div class="method-description">
+                    Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setOrdering(String fieldName, SortOrder direction)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">fieldName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The string value of the field to be sorted on</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setOrdering_4">
+                    <span>setOrdering(field, direction)</span>
+                  </h4>
+                  <div class="method-description">
+                    Remove existing ordering and set a field to be sorted on. This may be a direct field or a field related through an object lookup or master-detail relationship. Use the set to store unique field names, since we only want to sort by the same field one time. The sort expressions are stored in a list so that they are applied to the SOQL in the same order that they were added in.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setOrdering(SObjectField field, SortOrder direction)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">field</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectField</code>
+                  </div>
+                  <div class="param-description">The SObjectField to sort. This can only be a direct reference.</div>
+                  <div class="param-name">direction</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SortOrder</code>
+                  </div>
+                  <div class="param-description">the direction to be sorted on (ASCENDING or DESCENDING)</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.setSortSelectFields">
+                    <span>setSortSelectFields(doSort)</span>
+                  </h4>
+                  <div class="method-description">
+                    Sets a flag to indicate that this query should have ordered query fields in the select statement (this at a small cost to performance). If you are processing large query sets, you should switch this off.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory setSortSelectFields(Boolean doSort)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">doSort</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">whether or not select fields should be sorted in the soql statement.</div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.setSubselectQuery">
+                    <span>setSubselectQuery(relationship, assertIsAccessible)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private fflib_QueryFactory setSubselectQuery(Schema.ChildRelationship relationship, Boolean assertIsAccessible)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationship</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.ChildRelationship</code>
+                  </div>
+                  <div class="param-description">The ChildRelationship to be added as a subquery</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title deprecated" id="fflib_QueryFactory.subselectQuery">
+                    <span>subselectQuery(related)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory subselectQuery(SObjectType related)
+                  </div>
+                  <div class="method-subtitle deprecated">
+                    Deprecated
+                  </div>
+                  <div class="method-subtitle-description">
+                    Replaced by <span title="A valid link could not be created with this identifier.">#subselectQuery(String relationshipName)</span> and <span title="A valid link could not be created with this identifier.">#subselectQuery(ChildRelationship relationship)</span>
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">related</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectType</code>
+                  </div>
+                  <div class="param-description">The related object type</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title deprecated" id="fflib_QueryFactory.subselectQuery_1">
+                    <span>subselectQuery(related, assertIsAccessible)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory subselectQuery(SObjectType related, Boolean assertIsAccessible)
+                  </div>
+                  <div class="method-subtitle deprecated">
+                    Deprecated
+                  </div>
+                  <div class="method-subtitle-description">
+                    Replaced by <span title="A valid link could not be created with this identifier.">#subselectQuery(String relationshipName, Boolean assertIsAccessible)</span> and <span title="A valid link could not be created with this identifier.">#subselectQuery(ChildRelationship relationship, Boolean assertIsAccessible)</span>
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">related</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectType</code>
+                  </div>
+                  <div class="param-description">The related object type</div>
+                  <div class="param-name">assertIsAccessible</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">indicates whether to check if the user has access to the subquery object</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.subselectQuery_2">
+                    <span>subselectQuery(relationshipName)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationshipName already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory subselectQuery(String relationshipName)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationshipName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The relationshipName to be added as a subquery</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.subselectQuery_3">
+                    <span>subselectQuery(relationshipName, assertIsAccessible)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory subselectQuery(String relationshipName, Boolean assertIsAccessible)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationshipName</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">String</code>
+                  </div>
+                  <div class="param-description">The relationshipName to be added as a subquery</div>
+                  <div class="param-name">assertIsAccessible</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">indicates whether to check if the user has access to the subquery object</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.subselectQuery_4">
+                    <span>subselectQuery(relationship)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationshipName already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory subselectQuery(Schema.ChildRelationship relationship)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationship</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.ChildRelationship</code>
+                  </div>
+                  <div class="param-description">The ChildRelationship to be added as a subquery</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.subselectQuery_5">
+                    <span>subselectQuery(relationship, assertIsAccessible)</span>
+                  </h4>
+                  <div class="method-description">
+                    Add a subquery query to this query. If a subquery for this relationship already exists, it will be returned. If not, a new one will be created and returned.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_QueryFactory subselectQuery(Schema.ChildRelationship relationship, Boolean assertIsAccessible)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">relationship</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Schema.ChildRelationship</code>
+                  </div>
+                  <div class="param-description">The ChildRelationship to be added as a subquery</div>
+                  <div class="param-name">assertIsAccessible</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">Boolean</code>
+                  </div>
+                  <div class="param-description">indicates whether to check if the user has access to the subquery object</div>
+                  <div class="method-subtitle">
+                    Exceptions
+                  </div>
+                  <div class="method-subtitle-description">
+                    InvalidSubqueryRelationshipException If this method is called on a subselectQuery or with an invalid relationship
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.toSOQL">
+                    <span>toSOQL()</span>
+                  </h4>
+                  <div class="method-description">
+                    Convert the values provided to this instance into a full SOQL string for use with Database.query Check to see if subqueries queries need to be added after the field list.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public String toSOQL()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_QueryFactory.InvalidFieldException">
+              <span>fflib_QueryFactory.InvalidFieldException</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class InvalidFieldException extends Exception
+              </div>
+            </div>
+            <div class="subsection properties fflib_QueryFactory_InvalidFieldException">
+              <h3 class="subsection-title properties">fflib_QueryFactory.InvalidFieldException Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>fieldName</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String fieldName
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>objectType</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Schema.SObjectType objectType
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_QueryFactory.InvalidFieldException Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.InvalidFieldException.InvalidFieldException">
+                      InvalidFieldException (fieldName, objectType)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.InvalidFieldException.InvalidFieldException">
+                    <span>InvalidFieldException(fieldName, objectType)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public InvalidFieldException(String fieldName, Schema.SObjectType objectType)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_QueryFactory.InvalidFieldSetException">
+              <span>fflib_QueryFactory.InvalidFieldSetException</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class InvalidFieldSetException extends Exception
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_QueryFactory.InvalidSubqueryRelationshipException">
+              <span>fflib_QueryFactory.InvalidSubqueryRelationshipException</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class InvalidSubqueryRelationshipException extends Exception
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_QueryFactory.NonReferenceFieldException">
+              <span>fflib_QueryFactory.NonReferenceFieldException</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class NonReferenceFieldException extends Exception
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_QueryFactory.Ordering">
+              <span>fflib_QueryFactory.Ordering</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class Ordering
+              </div>
+            </div>
+            <div class="subsection properties fflib_QueryFactory_Ordering">
+              <h3 class="subsection-title properties">fflib_QueryFactory.Ordering Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>direction</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private SortOrder direction
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>field</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String field
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>nullsLast</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private boolean nullsLast
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_QueryFactory.Ordering Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.Ordering">
+                      Ordering (sobjType, fieldName, direction)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.Ordering_1">
+                      Ordering (field, direction)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Construct a new ordering instance for use with <span title="A valid link could not be created with this identifier.">fflib_QueryFactory#addOrdering</span> Once constructed it&#39;s properties may not be modified.
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.Ordering_2">
+                      Ordering (field, direction, nullsLast)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.Ordering_3">
+                      Ordering (field, direction)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.Ordering_4">
+                      Ordering (field, direction, nullsLast)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.Ordering">
+                    <span>Ordering(sobjType, fieldName, direction)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Ordering(String sobjType, String fieldName, SortOrder direction)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.Ordering_1">
+                    <span>Ordering(field, direction)</span>
+                  </h4>
+                  <div class="method-description">
+                    Construct a new ordering instance for use with <span title="A valid link could not be created with this identifier.">fflib_QueryFactory#addOrdering</span> Once constructed it&#39;s properties may not be modified.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Ordering(Schema.SObjectField field, SortOrder direction)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.Ordering_2">
+                    <span>Ordering(field, direction, nullsLast)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Ordering(Schema.SObjectField field, SortOrder direction, Boolean nullsLast)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.Ordering_3">
+                    <span>Ordering(field, direction)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@TestVisible</div>
+                  <div class="method-signature">
+                    private Ordering(String field, SortOrder direction)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.Ordering_4">
+                    <span>Ordering(field, direction, nullsLast)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+                  <div class="method-annotations">@TestVisible</div>
+                  <div class="method-signature">
+                    private Ordering(String field, SortOrder direction, Boolean nullsLast)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_QueryFactory.Ordering Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.getDirection">
+                      getDirection ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.getField">
+                      getField ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_QueryFactory.Ordering.toSOQL">
+                      toSOQL ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.getDirection">
+                    <span>getDirection()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SortOrder getDirection()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.getField">
+                    <span>getField()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public String getField()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_QueryFactory.Ordering.toSOQL">
+                    <span>toSOQL()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public String toSOQL()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+
+          <div>
+            <a href="https://github.com/no-stack-dub-sack/apexdox-vs-code" target="_blank" rel="noopener noreferrer">
+              Powered By ApexDox VS Code
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>

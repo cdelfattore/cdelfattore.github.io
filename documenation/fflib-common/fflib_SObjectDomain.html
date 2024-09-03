@@ -1,0 +1,3584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Apex Documentation</title>
+    <meta charset="UTF-8">
+    <script type="module" src="./assets/index.js"></script>
+    <script type="module" src="./assets/search-idx.js"></script>
+    <script type="module" src="./assets/search.js"></script>
+    <script charset="UTF-8" src="./assets/highlight.js"></script>
+    <script charset="UTF-8" src="./assets/mark.js"></script>
+    <script charset="UTF-8" src="./assets/lunr.js"></script>
+    <link rel="stylesheet" href="./assets/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/index.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+  </head>
+
+  <body>
+    <div id="side-bar">
+
+      <div id="logo-container">
+        <div class="title">
+          Apex Documentation
+        </div>
+        <img src="assets/logo.png" />
+        <div class="subtitle">
+          Powered by <a target="_blank" rel="noopener noreferrer" href="https://github.com/no-stack-dub-sack/apexdox-vs-code">ApexDox VS Code</a>
+        </div>
+      </div>
+      <div id="search-wrapper">
+        <div class="search-icon"></div>
+        <input id="search-input" type="text" autocomplete="off" placeholder="Search...">
+      </div>
+      <ul id="search-results" class=""></ul>
+      <div class="navbar">
+        <nav role="navigation">
+          <a class="nav-header" id="home" href="javascript:void(0)" onclick="goToLocation('index.html');">
+            Home
+          </a>
+          <details id="Core" class="group-name">
+            <summary id="header-Core" class="nav-header">
+              <span>Core</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_Answer" id="item-fflib_Answer" class="nav-item class public" onclick="goToLocation('fflib_Answer.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Answer</a>
+              </li>
+              <li title="fflib_AnyOrder" id="item-fflib_AnyOrder" class="nav-item class public" onclick="goToLocation('fflib_AnyOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrder</a>
+              </li>
+              <li title="fflib_ApexMocks" id="item-fflib_ApexMocks" class="nav-item class public" onclick="goToLocation('fflib_ApexMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocks</a>
+              </li>
+              <li title="fflib_ArgumentCaptor" id="item-fflib_ArgumentCaptor" class="nav-item class public" onclick="goToLocation('fflib_ArgumentCaptor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptor</a>
+              </li>
+              <li title="fflib_InOrder" id="item-fflib_InOrder" class="nav-item class public" onclick="goToLocation('fflib_InOrder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrder</a>
+              </li>
+              <li title="fflib_InvocationOnMock" id="item-fflib_InvocationOnMock" class="nav-item class public" onclick="goToLocation('fflib_InvocationOnMock.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InvocationOnMock</a>
+              </li>
+              <li title="fflib_MethodCountRecorder" id="item-fflib_MethodCountRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodCountRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodCountRecorder</a>
+              </li>
+              <li title="fflib_MethodReturnValue" id="item-fflib_MethodReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValue</a>
+              </li>
+              <li title="fflib_MethodReturnValueRecorder" id="item-fflib_MethodReturnValueRecorder" class="nav-item class public" onclick="goToLocation('fflib_MethodReturnValueRecorder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodReturnValueRecorder</a>
+              </li>
+              <li title="fflib_MethodVerifier" id="item-fflib_MethodVerifier" class="nav-item class public" onclick="goToLocation('fflib_MethodVerifier.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodVerifier</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValues" id="item-fflib_QualifiedMethodAndArgValues" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValues</a>
+              </li>
+              <li title="fflib_System" id="item-fflib_System" class="nav-item class public" onclick="goToLocation('fflib_System.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_System</a>
+              </li>
+              <li title="fflib_VerificationMode" id="item-fflib_VerificationMode" class="nav-item class public" onclick="goToLocation('fflib_VerificationMode.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_VerificationMode</a>
+              </li>
+            </ul>
+          </details>
+          <details id="Miscellaneous" class="group-name">
+            <summary id="header-Miscellaneous" class="nav-header">
+              <span>Miscellaneous</span>
+            </summary>
+            <ul>
+              <!-- menu items -->
+              <li title="fflib_AnswerTest" id="item-fflib_AnswerTest" class="nav-item class private" onclick="goToLocation('fflib_AnswerTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnswerTest</a>
+              </li>
+              <li title="fflib_AnyOrderTest" id="item-fflib_AnyOrderTest" class="nav-item class private" onclick="goToLocation('fflib_AnyOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_AnyOrderTest</a>
+              </li>
+              <li title="fflib_ApexMocksConfig" id="item-fflib_ApexMocksConfig" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksConfig.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksConfig</a>
+              </li>
+              <li title="fflib_ApexMocksTest" id="item-fflib_ApexMocksTest" class="nav-item class private" onclick="goToLocation('fflib_ApexMocksTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksTest</a>
+              </li>
+              <li title="fflib_ApexMocksUtils" id="item-fflib_ApexMocksUtils" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtils</a>
+              </li>
+              <li title="fflib_ApexMocksUtilsTest" id="item-fflib_ApexMocksUtilsTest" class="nav-item class public" onclick="goToLocation('fflib_ApexMocksUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApexMocksUtilsTest</a>
+              </li>
+              <li title="fflib_Application" id="item-fflib_Application" class="nav-item class public" onclick="goToLocation('fflib_Application.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Application</a>
+              </li>
+              <li title="fflib_ApplicationTest" id="item-fflib_ApplicationTest" class="nav-item class private" onclick="goToLocation('fflib_ApplicationTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ApplicationTest</a>
+              </li>
+              <li title="fflib_ArgumentCaptorTest" id="item-fflib_ArgumentCaptorTest" class="nav-item class private" onclick="goToLocation('fflib_ArgumentCaptorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ArgumentCaptorTest</a>
+              </li>
+              <li title="fflib_IDGenerator" id="item-fflib_IDGenerator" class="nav-item class public" onclick="goToLocation('fflib_IDGenerator.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGenerator</a>
+              </li>
+              <li title="fflib_IDGeneratorTest" id="item-fflib_IDGeneratorTest" class="nav-item class private" onclick="goToLocation('fflib_IDGeneratorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDGeneratorTest</a>
+              </li>
+              <li title="fflib_IDomain" id="item-fflib_IDomain" class="nav-item class public" onclick="goToLocation('fflib_IDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomain</a>
+              </li>
+              <li title="fflib_IDomainConstructor" id="item-fflib_IDomainConstructor" class="nav-item class public" onclick="goToLocation('fflib_IDomainConstructor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainConstructor</a>
+              </li>
+              <li title="fflib_IDomainFactory" id="item-fflib_IDomainFactory" class="nav-item class public" onclick="goToLocation('fflib_IDomainFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IDomainFactory</a>
+              </li>
+              <li title="fflib_IMatcher" id="item-fflib_IMatcher" class="nav-item class public" onclick="goToLocation('fflib_IMatcher.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IMatcher</a>
+              </li>
+              <li title="fflib_Inheritor" id="item-fflib_Inheritor" class="nav-item class public" onclick="goToLocation('fflib_Inheritor.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Inheritor</a>
+              </li>
+              <li title="fflib_InheritorTest" id="item-fflib_InheritorTest" class="nav-item class public" onclick="goToLocation('fflib_InheritorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InheritorTest</a>
+              </li>
+              <li title="fflib_InOrderTest" id="item-fflib_InOrderTest" class="nav-item class private" onclick="goToLocation('fflib_InOrderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_InOrderTest</a>
+              </li>
+              <li title="fflib_IObjects" id="item-fflib_IObjects" class="nav-item class public" onclick="goToLocation('fflib_IObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IObjects</a>
+              </li>
+              <li title="fflib_ISelectorFactory" id="item-fflib_ISelectorFactory" class="nav-item class public" onclick="goToLocation('fflib_ISelectorFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISelectorFactory</a>
+              </li>
+              <li title="fflib_IServiceFactory" id="item-fflib_IServiceFactory" class="nav-item class public" onclick="goToLocation('fflib_IServiceFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IServiceFactory</a>
+              </li>
+              <li title="fflib_ISObjectDomain" id="item-fflib_ISObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_ISObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectDomain</a>
+              </li>
+              <li title="fflib_ISObjects" id="item-fflib_ISObjects" class="nav-item class public" onclick="goToLocation('fflib_ISObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjects</a>
+              </li>
+              <li title="fflib_ISObjectSelector" id="item-fflib_ISObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_ISObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectSelector</a>
+              </li>
+              <li title="fflib_ISObjectUnitOfWork" id="item-fflib_ISObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_ISObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ISObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_IUnitOfWorkFactory" id="item-fflib_IUnitOfWorkFactory" class="nav-item class public" onclick="goToLocation('fflib_IUnitOfWorkFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_IUnitOfWorkFactory</a>
+              </li>
+              <li title="fflib_Match" id="item-fflib_Match" class="nav-item class public" onclick="goToLocation('fflib_Match.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Match</a>
+              </li>
+              <li title="fflib_MatcherDefinitions" id="item-fflib_MatcherDefinitions" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitions.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitions</a>
+              </li>
+              <li title="fflib_MatcherDefinitionsTest" id="item-fflib_MatcherDefinitionsTest" class="nav-item class public" onclick="goToLocation('fflib_MatcherDefinitionsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatcherDefinitionsTest</a>
+              </li>
+              <li title="fflib_MatchersReturnValue" id="item-fflib_MatchersReturnValue" class="nav-item class public" onclick="goToLocation('fflib_MatchersReturnValue.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchersReturnValue</a>
+              </li>
+              <li title="fflib_MatchTest" id="item-fflib_MatchTest" class="nav-item class public" onclick="goToLocation('fflib_MatchTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MatchTest</a>
+              </li>
+              <li title="fflib_MethodArgValues" id="item-fflib_MethodArgValues" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValues.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValues</a>
+              </li>
+              <li title="fflib_MethodArgValuesTest" id="item-fflib_MethodArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_MethodArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MethodArgValuesTest</a>
+              </li>
+              <li title="fflib_Mocks" id="item-fflib_Mocks" class="nav-item class public" onclick="goToLocation('fflib_Mocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Mocks</a>
+              </li>
+              <li title="fflib_MyList" id="item-fflib_MyList" class="nav-item class public" onclick="goToLocation('fflib_MyList.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_MyList</a>
+              </li>
+              <li title="fflib_Objects" id="item-fflib_Objects" class="nav-item class public" onclick="goToLocation('fflib_Objects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_Objects</a>
+              </li>
+              <li title="fflib_ObjectsTest" id="item-fflib_ObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_ObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_ObjectsTest</a>
+              </li>
+              <li title="fflib_QualifiedMethod" id="item-fflib_QualifiedMethod" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethod.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethod</a>
+              </li>
+              <li title="fflib_QualifiedMethodAndArgValuesTest" id="item-fflib_QualifiedMethodAndArgValuesTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodAndArgValuesTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodAndArgValuesTest</a>
+              </li>
+              <li title="fflib_QualifiedMethodTest" id="item-fflib_QualifiedMethodTest" class="nav-item class public" onclick="goToLocation('fflib_QualifiedMethodTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QualifiedMethodTest</a>
+              </li>
+              <li title="fflib_QueryFactory" id="item-fflib_QueryFactory" class="nav-item class public" onclick="goToLocation('fflib_QueryFactory.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactory</a>
+              </li>
+              <li title="fflib_QueryFactoryTest" id="item-fflib_QueryFactoryTest" class="nav-item class private" onclick="goToLocation('fflib_QueryFactoryTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_QueryFactoryTest</a>
+              </li>
+              <li title="fflib_SecurityUtils" id="item-fflib_SecurityUtils" class="nav-item class public" onclick="goToLocation('fflib_SecurityUtils.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtils</a>
+              </li>
+              <li title="fflib_SecurityUtilsTest" id="item-fflib_SecurityUtilsTest" class="nav-item class private" onclick="goToLocation('fflib_SecurityUtilsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SecurityUtilsTest</a>
+              </li>
+              <li title="fflib_SObjectDescribe" id="item-fflib_SObjectDescribe" class="nav-item class public" onclick="goToLocation('fflib_SObjectDescribe.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribe</a>
+              </li>
+              <li title="fflib_SObjectDescribeTest" id="item-fflib_SObjectDescribeTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDescribeTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDescribeTest</a>
+              </li>
+              <li title="fflib_SObjectDomain" id="item-fflib_SObjectDomain" class="nav-item class public" onclick="goToLocation('fflib_SObjectDomain.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomain</a>
+              </li>
+              <li title="fflib_SObjectDomainTest" id="item-fflib_SObjectDomainTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectDomainTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectDomainTest</a>
+              </li>
+              <li title="fflib_SObjectMocks" id="item-fflib_SObjectMocks" class="nav-item class public" onclick="goToLocation('fflib_SObjectMocks.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectMocks</a>
+              </li>
+              <li title="fflib_SObjects" id="item-fflib_SObjects" class="nav-item class public" onclick="goToLocation('fflib_SObjects.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjects</a>
+              </li>
+              <li title="fflib_SObjectSelector" id="item-fflib_SObjectSelector" class="nav-item class public" onclick="goToLocation('fflib_SObjectSelector.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelector</a>
+              </li>
+              <li title="fflib_SObjectSelectorTest" id="item-fflib_SObjectSelectorTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectSelectorTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectSelectorTest</a>
+              </li>
+              <li title="fflib_SObjectsTest" id="item-fflib_SObjectsTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectsTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectsTest</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWork" id="item-fflib_SObjectUnitOfWork" class="nav-item class public" onclick="goToLocation('fflib_SObjectUnitOfWork.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWork</a>
+              </li>
+              <li title="fflib_SObjectUnitOfWorkTest" id="item-fflib_SObjectUnitOfWorkTest" class="nav-item class private" onclick="goToLocation('fflib_SObjectUnitOfWorkTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SObjectUnitOfWorkTest</a>
+              </li>
+              <li title="fflib_StringBuilder" id="item-fflib_StringBuilder" class="nav-item class public" onclick="goToLocation('fflib_StringBuilder.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilder</a>
+              </li>
+              <li title="fflib_StringBuilderTest" id="item-fflib_StringBuilderTest" class="nav-item class private" onclick="goToLocation('fflib_StringBuilderTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_StringBuilderTest</a>
+              </li>
+              <li title="fflib_SystemTest" id="item-fflib_SystemTest" class="nav-item class private" onclick="goToLocation('fflib_SystemTest.html');">
+                <a tabindex="1" href="javascript:void(0)">fflib_SystemTest</a>
+              </li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+    </div>
+    <table id="content">
+      <tr>
+        <td class="scoping-panel">
+          Show: <input type="checkbox" checked="true" id="cbx-all" onclick="toggleAllScopes(this.checked);" />
+          <label for="cbx-all">All</label>&nbsp;&nbsp;
+          <input type="checkbox" checked="true" id="cbx-global" onclick="toggleScope('global', this.checked);" />
+          <label for="cbx-global">
+            global
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-public" onclick="toggleScope('public', this.checked);" />
+          <label for="cbx-public">
+            public
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-protected" onclick="toggleScope('protected', this.checked);" />
+          <label for="cbx-protected">
+            protected
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-private" onclick="toggleScope('private', this.checked);" />
+          <label for="cbx-private">
+            private
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-testmethod" onclick="toggleScope('testmethod', this.checked);" />
+          <label for="cbx-testmethod">
+            testMethod
+          </label>&nbsp;&nbsp;<input type="checkbox" checked="true" id="cbx-webservice" onclick="toggleScope('webservice', this.checked);" />
+          <label for="cbx-webservice">
+            webService
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td class="doc-page">
+
+          <div class="section">
+
+            <h2 class="class-title top-level-type" id="fflib_SObjectDomain">
+              <span>fflib_SObjectDomain</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Copyright (c), FinancialForce.com, inc All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. - Neither the name of the FinancialForce.com, inc nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public virtual with sharing class fflib_SObjectDomain
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain">
+              <h3 class="subsection-title properties">fflib_SObjectDomain Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+                  <th>Annotations</th>
+                  <th>Description</th>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>Configuration</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public Configuration Configuration
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    Exposes the configuration for this domain class instance
+                  </td>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>Errors</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public static fflib_SObjectDomain.ErrorFactory Errors
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    DEPRECATED, This property has been moved to fflib_SObjects
+                  </td>
+                </tr>
+                <tr class="property protected">
+                  <td class="attribute-name"><span>ExistingRecords</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      protected Map&lt;Id, SObject&gt; ExistingRecords
+                    </div>
+                  </td>
+                  <td>
+                    <div class="prop-annotations">@TestVisible</div>
+                  </td>
+
+                  <td class="attribute-description">
+                    Provides access to Trigger.oldMap and allowing it to be mocked in unit-tests
+                  </td>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>Records</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public List&lt;SObject&gt; Records
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    Provides access to the data represented by this domain class
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>set</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private set
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+
+                  </td>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>Test</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public static TestFactory Test
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    Useful during unit testing to access mock support for database inserts and updates (testing without DML)
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>TriggerEventByClass</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private static Map&lt;Type, TriggerEvent&gt; TriggerEventByClass
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    Retains the trigger tracking configuration used for each domain
+                  </td>
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>TriggerStateByClass</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private static Map&lt;Type, List&lt;fflib_SObjectDomain&gt;&gt; TriggerStateByClass
+                    </div>
+                  </td>
+                  <td></td>
+
+                  <td class="attribute-description">
+                    Retains instances of domain classes implementing trigger stateful
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.fflib_SObjectDomain">
+                      fflib_SObjectDomain (sObjectList)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Constructs the domain class with the data on which to apply the behaviour implemented within
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.fflib_SObjectDomain_1">
+                      fflib_SObjectDomain (sObjectList, sObjectType)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Constructs the domain class with the data and type on which to apply the behaviour implemented within @remark Will support List&lt;SObject&gt; but all records in the list will be assumed to be of the type specified in sObjectType
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.fflib_SObjectDomain">
+                    <span>fflib_SObjectDomain(sObjectList)</span>
+                  </h4>
+                  <div class="method-description">
+                    Constructs the domain class with the data on which to apply the behaviour implemented within
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain(List&lt;SObject&gt; sObjectList)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">sObjectList</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">List&lt;SObject&gt;</code>
+                  </div>
+                  <div class="param-description">A concrete list (e.g. List&lt;Account&gt; vs List&lt;SObject&gt;) of records</div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.fflib_SObjectDomain_1">
+                    <span>fflib_SObjectDomain(sObjectList, sObjectType)</span>
+                  </h4>
+                  <div class="method-description">
+                    Constructs the domain class with the data and type on which to apply the behaviour implemented within @remark Will support List&lt;SObject&gt; but all records in the list will be assumed to be of the type specified in sObjectType
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain(List&lt;SObject&gt; sObjectList, SObjectType sObjectType)
+                  </div>
+                  <div class="method-subtitle">Parameters</div>
+                  <div class="param-name">sObjectList</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">List&lt;SObject&gt;</code>
+                  </div>
+                  <div class="param-description">A list (e.g. List&lt;Opportunity&gt;, List&lt;Account&gt;, etc.) of records</div>
+                  <div class="param-name">sObjectType</div>
+                  <div class="param-type">
+                    Type: <code class="code-inline">SObjectType</code>
+                  </div>
+                  <div class="param-description">The Schema.SObjectType of the records contained in the list</div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.error">
+                      error (message, record)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Ensures logging of errors in the Domain context for later assertions in tests
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.error_1">
+                      error (message, record, field)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Ensures logging of errors in the Domain context for later assertions in tests
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.getChangedRecords">
+                      getChangedRecords (fieldNames)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Detects whether any values in context records have changed for given fields as strings Returns list of SObject records that have changes in the specified fields
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.getChangedRecords_1">
+                      getChangedRecords (fieldTokens)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Detects whether any values in context records have changed for given fields as tokens Returns list of SObject records that have changes in the specified fields
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.getTriggerEvent">
+                      getTriggerEvent (domainClass)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.getTriggerInstance">
+                      getTriggerInstance (domainClass)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      For Domain classes implementing the ITriggerStateful interface returns the instance of the domain class being shared between trigger invocations, returns null if the Domain class trigger has not yet fired or the given domain class does not implement the ITriggerStateful interface. Note this method is sensitive to recursion, meaning it will return the applicable domain instance for the level of recursion
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleAfterDelete">
+                      handleAfterDelete ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event After Delete, checks object security and calls the onAfterDelete method @throws DomainException if the current user context is not able to delete records
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleAfterInsert">
+                      handleAfterInsert ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event After Insert, checks object security and calls the onValidate and onAfterInsert methods @throws DomainException if the current user context is not able to create records
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleAfterUndelete">
+                      handleAfterUndelete ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event After Undelete, checks object security and calls the onAfterUndelete method @throws DomainException if the current user context is not able to delete records
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleAfterUpdate">
+                      handleAfterUpdate (existingRecords)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event After Update, checks object security and calls the onValidate, onValidate(Map&lt;Id,SObject&gt;) and onAfterUpdate methods @throws DomainException if the current user context is not able to update records
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleBeforeDelete">
+                      handleBeforeDelete ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event Before Delete, calls the onBeforeDelete method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleBeforeInsert">
+                      handleBeforeInsert ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event Before Insert, calls the onApplyDefaults method, followed by onBeforeInsert
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.handleBeforeUpdate">
+                      handleBeforeUpdate (existingRecords)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Base handler for the Apex Trigger event Before Update, calls the onBeforeUpdate method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onAfterDelete">
+                      onAfterDelete ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the after delete phase, this is called by the handleAfterDelete method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onAfterInsert">
+                      onAfterInsert ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the after insert phase, this is called by the handleAfterInsert method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onAfterUndelete">
+                      onAfterUndelete ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the after undelete phase, this is called by the handleAfterDelete method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onAfterUpdate">
+                      onAfterUpdate (existingRecords)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the after update phase, this is called by the handleAfterUpdate method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onApplyDefaults">
+                      onApplyDefaults ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to apply defaults to the records, this is called by the handleBeforeInsert method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onBeforeDelete">
+                      onBeforeDelete ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the before delete phase, this is called by the handleBeforeDelete method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onBeforeInsert">
+                      onBeforeInsert ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the before insert phase, this is called by the handleBeforeInsert method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onBeforeUpdate">
+                      onBeforeUpdate (existingRecords)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to perform processing during the before update phase, this is called by the handleBeforeUpdate method
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onValidate">
+                      onValidate ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to apply general validation to be performed during insert or update, called by the handleAfterInsert and handleAfterUpdate methods
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.onValidate_1">
+                      onValidate (existingRecords)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Override this to apply validation to be performed during insert, called by the handleAfterUpdate method
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.popTriggerInstance">
+                      popTriggerInstance (domainClass, records)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Pops from the stack of domain classes per type a domain object instance and updates the record set
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.pushTriggerInstance">
+                      pushTriggerInstance (domainClass, domain)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Pushes to the stack of domain classes per type a domain object instance
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.sObjectType">
+                      sObjectType ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Returns the SObjectType this Domain class represents
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.triggerHandler">
+                      triggerHandler (domainClass)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Method constructs the given Domain class with the current Trigger context before calling the applicable override methods such as beforeInsert, beforeUpdate etc.
+                    </div>
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.triggerHandler_1">
+                      triggerHandler (domainClass, isBefore, isAfter, isInsert, isUpdate, isDelete, isUndelete, newRecords, oldRecordsMap)
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Calls the applicable override methods such as beforeInsert, beforeUpdate etc. based on a Trigger context
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.error">
+                    <span>error(message, record)</span>
+                  </h4>
+                  <div class="method-description">
+                    Ensures logging of errors in the Domain context for later assertions in tests
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String error(String message, SObject record)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.error_1">
+                    <span>error(message, record, field)</span>
+                  </h4>
+                  <div class="method-description">
+                    Ensures logging of errors in the Domain context for later assertions in tests
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override String error(String message, SObject record, SObjectField field)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.getChangedRecords">
+                    <span>getChangedRecords(fieldNames)</span>
+                  </h4>
+                  <div class="method-description">
+                    Detects whether any values in context records have changed for given fields as strings Returns list of SObject records that have changes in the specified fields
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public List&lt;SObject&gt; getChangedRecords(Set&lt;String&gt; fieldNames)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.getChangedRecords_1">
+                    <span>getChangedRecords(fieldTokens)</span>
+                  </h4>
+                  <div class="method-description">
+                    Detects whether any values in context records have changed for given fields as tokens Returns list of SObject records that have changes in the specified fields
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public List&lt;SObject&gt; getChangedRecords(Set&lt;Schema.SObjectField&gt; fieldTokens)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.getTriggerEvent">
+                    <span>getTriggerEvent(domainClass)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public static TriggerEvent getTriggerEvent(Type domainClass)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.getTriggerInstance">
+                    <span>getTriggerInstance(domainClass)</span>
+                  </h4>
+                  <div class="method-description">
+                    For Domain classes implementing the ITriggerStateful interface returns the instance of the domain class being shared between trigger invocations, returns null if the Domain class trigger has not yet fired or the given domain class does not implement the ITriggerStateful interface. Note this method is sensitive to recursion, meaning it will return the applicable domain instance for the level of recursion
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public static fflib_SObjectDomain getTriggerInstance(Type domainClass)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleAfterDelete">
+                    <span>handleAfterDelete()</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event After Delete, checks object security and calls the onAfterDelete method @throws DomainException if the current user context is not able to delete records
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleAfterDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleAfterInsert">
+                    <span>handleAfterInsert()</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event After Insert, checks object security and calls the onValidate and onAfterInsert methods @throws DomainException if the current user context is not able to create records
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleAfterUndelete">
+                    <span>handleAfterUndelete()</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event After Undelete, checks object security and calls the onAfterUndelete method @throws DomainException if the current user context is not able to delete records
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleAfterUndelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleAfterUpdate">
+                    <span>handleAfterUpdate(existingRecords)</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event After Update, checks object security and calls the onValidate, onValidate(Map&lt;Id,SObject&gt;) and onAfterUpdate methods @throws DomainException if the current user context is not able to update records
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleAfterUpdate(Map&lt;Id,SObject&gt; existingRecords)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleBeforeDelete">
+                    <span>handleBeforeDelete()</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event Before Delete, calls the onBeforeDelete method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleBeforeDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleBeforeInsert">
+                    <span>handleBeforeInsert()</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event Before Insert, calls the onApplyDefaults method, followed by onBeforeInsert
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleBeforeInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.handleBeforeUpdate">
+                    <span>handleBeforeUpdate(existingRecords)</span>
+                  </h4>
+                  <div class="method-description">
+                    Base handler for the Apex Trigger event Before Update, calls the onBeforeUpdate method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void handleBeforeUpdate(Map&lt;Id,SObject&gt; existingRecords)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onAfterDelete">
+                    <span>onAfterDelete()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the after delete phase, this is called by the handleAfterDelete method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onAfterDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onAfterInsert">
+                    <span>onAfterInsert()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the after insert phase, this is called by the handleAfterInsert method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onAfterUndelete">
+                    <span>onAfterUndelete()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the after undelete phase, this is called by the handleAfterDelete method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onAfterUndelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onAfterUpdate">
+                    <span>onAfterUpdate(existingRecords)</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the after update phase, this is called by the handleAfterUpdate method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onAfterUpdate(Map&lt;Id,SObject&gt; existingRecords)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onApplyDefaults">
+                    <span>onApplyDefaults()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to apply defaults to the records, this is called by the handleBeforeInsert method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onApplyDefaults()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onBeforeDelete">
+                    <span>onBeforeDelete()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the before delete phase, this is called by the handleBeforeDelete method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onBeforeDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onBeforeInsert">
+                    <span>onBeforeInsert()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the before insert phase, this is called by the handleBeforeInsert method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onBeforeInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onBeforeUpdate">
+                    <span>onBeforeUpdate(existingRecords)</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to perform processing during the before update phase, this is called by the handleBeforeUpdate method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onBeforeUpdate(Map&lt;Id,SObject&gt; existingRecords)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onValidate">
+                    <span>onValidate()</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to apply general validation to be performed during insert or update, called by the handleAfterInsert and handleAfterUpdate methods
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onValidate()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.onValidate_1">
+                    <span>onValidate(existingRecords)</span>
+                  </h4>
+                  <div class="method-description">
+                    Override this to apply validation to be performed during insert, called by the handleAfterUpdate method
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public virtual void onValidate(Map&lt;Id,SObject&gt; existingRecords)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.popTriggerInstance">
+                    <span>popTriggerInstance(domainClass, records)</span>
+                  </h4>
+                  <div class="method-description">
+                    Pops from the stack of domain classes per type a domain object instance and updates the record set
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private static fflib_SObjectDomain popTriggerInstance(Type domainClass, List&lt;SObject&gt; records)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.pushTriggerInstance">
+                    <span>pushTriggerInstance(domainClass, domain)</span>
+                  </h4>
+                  <div class="method-description">
+                    Pushes to the stack of domain classes per type a domain object instance
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private static void pushTriggerInstance(Type domainClass, fflib_SObjectDomain domain)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.sObjectType">
+                    <span>sObjectType()</span>
+                  </h4>
+                  <div class="method-description">
+                    Returns the SObjectType this Domain class represents
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public SObjectType sObjectType()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.triggerHandler">
+                    <span>triggerHandler(domainClass)</span>
+                  </h4>
+                  <div class="method-description">
+                    Method constructs the given Domain class with the current Trigger context before calling the applicable override methods such as beforeInsert, beforeUpdate etc.
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public static void triggerHandler(Type domainClass)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.triggerHandler_1">
+                    <span>triggerHandler(domainClass, isBefore, isAfter, isInsert, isUpdate, isDelete, isUndelete, newRecords, oldRecordsMap)</span>
+                  </h4>
+                  <div class="method-description">
+                    Calls the applicable override methods such as beforeInsert, beforeUpdate etc. based on a Trigger context
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private static void triggerHandler(Type domainClass, Boolean isBefore, Boolean isAfter, Boolean isInsert, Boolean isUpdate, Boolean isDelete, Boolean isUndelete, List&lt;SObject&gt; newRecords, Map&lt;Id, SObject&gt; oldRecordsMap)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.Configuration">
+              <span>fflib_SObjectDomain.Configuration</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Fluent style Configuration system for Domain class creation
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class Configuration
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_Configuration">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.Configuration Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+                  <th>Description</th>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>EnforcingTriggerCRUDSecurity</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public Boolean EnforcingTriggerCRUDSecurity
+                    </div>
+                  </td>
+
+
+                  <td class="attribute-description">
+                    True if the base class is checking the users CRUD requirements before invoking trigger methods
+                  </td>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>OldOnUpdateValidateBehaviour</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public Boolean OldOnUpdateValidateBehaviour
+                    </div>
+                  </td>
+
+
+                  <td class="attribute-description">
+                    Backwards compatibility mode for handleAfterUpdate routing to onValidate()
+                  </td>
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>TriggerStateEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public Boolean TriggerStateEnabled
+                    </div>
+                  </td>
+
+
+                  <td class="attribute-description">
+                    Enables reuse of the same Domain instance between before and after trigger phases (subject to recursive scenarios)
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.Configuration Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.Configuration">
+                      Configuration ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      Default configuration
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.Configuration">
+                    <span>Configuration()</span>
+                  </h4>
+                  <div class="method-description">
+                    Default configuration
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration()
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.Configuration Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.disableOldOnUpdateValidateBehaviour">
+                      disableOldOnUpdateValidateBehaviour ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      See associated property
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.disableTriggerCRUDSecurity">
+                      disableTriggerCRUDSecurity ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      See associated property
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.disableTriggerState">
+                      disableTriggerState ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      See associated property
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.enableOldOnUpdateValidateBehaviour">
+                      enableOldOnUpdateValidateBehaviour ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      See associated property
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.enableTriggerState">
+                      enableTriggerState ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      See associated property
+                    </div>
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.Configuration.enforceTriggerCRUDSecurity">
+                      enforceTriggerCRUDSecurity ()
+                    </a>
+
+                    <div class="methods-toc__description">
+                      See associated property
+                    </div>
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.disableOldOnUpdateValidateBehaviour">
+                    <span>disableOldOnUpdateValidateBehaviour()</span>
+                  </h4>
+                  <div class="method-description">
+                    See associated property
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration disableOldOnUpdateValidateBehaviour()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.disableTriggerCRUDSecurity">
+                    <span>disableTriggerCRUDSecurity()</span>
+                  </h4>
+                  <div class="method-description">
+                    See associated property
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration disableTriggerCRUDSecurity()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.disableTriggerState">
+                    <span>disableTriggerState()</span>
+                  </h4>
+                  <div class="method-description">
+                    See associated property
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration disableTriggerState()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.enableOldOnUpdateValidateBehaviour">
+                    <span>enableOldOnUpdateValidateBehaviour()</span>
+                  </h4>
+                  <div class="method-description">
+                    See associated property
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration enableOldOnUpdateValidateBehaviour()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.enableTriggerState">
+                    <span>enableTriggerState()</span>
+                  </h4>
+                  <div class="method-description">
+                    See associated property
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration enableTriggerState()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.Configuration.enforceTriggerCRUDSecurity">
+                    <span>enforceTriggerCRUDSecurity()</span>
+                  </h4>
+                  <div class="method-description">
+                    See associated property
+                  </div>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Configuration enforceTriggerCRUDSecurity()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.DomainException">
+              <span>fflib_SObjectDomain.DomainException</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                General exception class for the domain layer
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class DomainException extends Exception
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.Error">
+              <span>fflib_SObjectDomain.Error</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DEPRECATED, This class has been moved to fflib_SObjects
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public abstract class Error
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_Error">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.Error Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>domain</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public fflib_SObjectDomain domain
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>message</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public String message
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.ErrorFactory">
+              <span>fflib_SObjectDomain.ErrorFactory</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DEPRECATED, This class has been moved to fflib_SObjects
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class ErrorFactory
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_ErrorFactory">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.ErrorFactory Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>errorList</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private List&lt;Error&gt; errorList
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.ErrorFactory Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.ErrorFactory">
+                      ErrorFactory ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.ErrorFactory">
+                    <span>ErrorFactory()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private ErrorFactory()
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.ErrorFactory Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.clearAll">
+                      clearAll ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.error">
+                      error (message, record)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.error_1">
+                      error (domain, message, record)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.error_2">
+                      error (message, record, field)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.error_3">
+                      error (domain, message, record, field)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ErrorFactory.getAll">
+                      getAll ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.clearAll">
+                    <span>clearAll()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public void clearAll()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.error">
+                    <span>error(message, record)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public String error(String message, SObject record)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.error_1">
+                    <span>error(domain, message, record)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private String error(fflib_SObjectDomain domain, String message, SObject record)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.error_2">
+                    <span>error(message, record, field)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public String error(String message, SObject record, SObjectField field)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.error_3">
+                    <span>error(domain, message, record, field)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private String error(fflib_SObjectDomain domain, String message, SObject record, SObjectField field)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ErrorFactory.getAll">
+                    <span>getAll()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public List&lt;Error&gt; getAll()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.FieldError">
+              <span>fflib_SObjectDomain.FieldError</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DEPRECATED, This class has been moved to fflib_SObjects
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public virtual class FieldError extends ObjectError
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_FieldError">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.FieldError Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>field</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public SObjectField field
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.FieldError Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.FieldError.FieldError">
+                      FieldError ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.FieldError.FieldError">
+                    <span>FieldError()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public FieldError()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.IConstructable">
+              <span>fflib_SObjectDomain.IConstructable</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Interface used to aid the triggerHandler in constructing instances of Domain classes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public interface IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.IConstructable Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.IConstructable.construct">
+                      construct (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.IConstructable.construct">
+                    <span>construct(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.IConstructable2">
+              <span>fflib_SObjectDomain.IConstructable2</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Interface used to aid the triggerHandler in constructing instances of Domain classes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public interface IConstructable2 extends IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.IConstructable2 Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.IConstructable2.construct">
+                      construct (sObjectList, sObjectType)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.IConstructable2.construct">
+                    <span>construct(sObjectList, sObjectType)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList, SObjectType sObjectType)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.MockDatabase">
+              <span>fflib_SObjectDomain.MockDatabase</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Class used during Unit testing of Domain classes, can be used (not exclusively) to speed up test execution and focus testing
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class MockDatabase
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_MockDatabase">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.MockDatabase Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>isDelete</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean isDelete
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>isInsert</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean isInsert
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>isUndelete</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean isUndelete
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>isUpdate</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Boolean isUpdate
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>oldRecords</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private Map&lt;Id, SObject&gt; oldRecords
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>records</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private List&lt;SObject&gt; records
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.MockDatabase Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.MockDatabase">
+                      MockDatabase ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.MockDatabase">
+                    <span>MockDatabase()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private MockDatabase()
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.MockDatabase Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.hasRecords">
+                      hasRecords ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.onDelete">
+                      onDelete (records)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.onInsert">
+                      onInsert (records)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.onUndelete">
+                      onUndelete (records)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.onUpdate">
+                      onUpdate (records, oldRecords)
+                    </a>
+
+                  </li>
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.MockDatabase.testTriggerHandler">
+                      testTriggerHandler (domainClass)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.hasRecords">
+                    <span>hasRecords()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public Boolean hasRecords()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.onDelete">
+                    <span>onDelete(records)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public void onDelete(Map&lt;Id, SObject&gt; records)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.onInsert">
+                    <span>onInsert(records)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public void onInsert(List&lt;SObject&gt; records)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.onUndelete">
+                    <span>onUndelete(records)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public void onUndelete(List&lt;SObject&gt; records)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.onUpdate">
+                    <span>onUpdate(records, oldRecords)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public void onUpdate(List&lt;SObject&gt; records, Map&lt;Id, SObject&gt; oldRecords)
+                  </div>
+                </div>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.MockDatabase.testTriggerHandler">
+                    <span>testTriggerHandler(domainClass)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private void testTriggerHandler(Type domainClass)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.ObjectError">
+              <span>fflib_SObjectDomain.ObjectError</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                DEPRECATED, This class has been moved to fflib_SObjects
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public virtual class ObjectError extends Error
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_ObjectError">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.ObjectError Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>record</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public SObject record
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.ObjectError Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.ObjectError.ObjectError">
+                      ObjectError ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.ObjectError.ObjectError">
+                    <span>ObjectError()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public ObjectError()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestFactory">
+              <span>fflib_SObjectDomain.TestFactory</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Provides test context mocking facilities to unit tests testing domain classes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TestFactory
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_TestFactory">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.TestFactory Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>Database</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public MockDatabase Database
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestFactory Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method private">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestFactory.TestFactory">
+                      TestFactory ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method private">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestFactory.TestFactory">
+                    <span>TestFactory()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    private TestFactory()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectChangedRecords">
+              <span>fflib_SObjectDomain.TestSObjectChangedRecords</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Test domain class (ideally this would be in the test class, however Type.newInstance does not see such classes)
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public with sharing class TestSObjectChangedRecords
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectChangedRecords Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectChangedRecords.TestSObjectChangedRecords">
+                      TestSObjectChangedRecords (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectChangedRecords.TestSObjectChangedRecords">
+                    <span>TestSObjectChangedRecords(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TestSObjectChangedRecords(List&lt;Opportunity&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectChangedRecordsConstructor">
+              <span>fflib_SObjectDomain.TestSObjectChangedRecordsConstructor</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Typically an inner class to the domain class, supported here for test purposes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TestSObjectChangedRecordsConstructor implements fflib_SObjectDomain.IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectChangedRecordsConstructor Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectChangedRecordsConstructor.construct">
+                      construct (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectChangedRecordsConstructor.construct">
+                    <span>construct(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour">
+              <span>fflib_SObjectDomain.TestSObjectDisableBehaviour</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Test domain class (ideally this would be in the test class, however Type.newInstance does not see such classes)
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public with sharing class TestSObjectDisableBehaviour
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectDisableBehaviour Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.TestSObjectDisableBehaviour">
+                      TestSObjectDisableBehaviour (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.TestSObjectDisableBehaviour">
+                    <span>TestSObjectDisableBehaviour(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TestSObjectDisableBehaviour(List&lt;Opportunity&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectDisableBehaviour Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterDelete">
+                      onAfterDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterInsert">
+                      onAfterInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterUndelete">
+                      onAfterUndelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterUpdate">
+                      onAfterUpdate (existing)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onBeforeDelete">
+                      onBeforeDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onBeforeInsert">
+                      onBeforeInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviour.onBeforeUpdate">
+                      onBeforeUpdate (existing)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterDelete">
+                    <span>onAfterDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterInsert">
+                    <span>onAfterInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterUndelete">
+                    <span>onAfterUndelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterUndelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onAfterUpdate">
+                    <span>onAfterUpdate(existing)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterUpdate(map&lt;id, SObject&gt; existing)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onBeforeDelete">
+                    <span>onBeforeDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onBeforeDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onBeforeInsert">
+                    <span>onBeforeInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onBeforeInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviour.onBeforeUpdate">
+                    <span>onBeforeUpdate(existing)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onBeforeUpdate(map&lt;id, SObject&gt; existing)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviourConstructor">
+              <span>fflib_SObjectDomain.TestSObjectDisableBehaviourConstructor</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Typically an inner class to the domain class, supported here for test purposes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TestSObjectDisableBehaviourConstructor implements fflib_SObjectDomain.IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectDisableBehaviourConstructor Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDisableBehaviourConstructor.construct">
+                      construct (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDisableBehaviourConstructor.construct">
+                    <span>construct(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectDomain">
+              <span>fflib_SObjectDomain.TestSObjectDomain</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Test domain class (ideally this would be in the test class, however Type.newInstance does not see such classes)
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public with sharing class TestSObjectDomain extends fflib_SObjectDomain
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_TestSObjectDomain">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.TestSObjectDomain Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property private">
+                  <td class="attribute-name"><span>someState</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      private String someState
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectDomain Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.TestSObjectDomain">
+                      TestSObjectDomain (sObjectList)
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.TestSObjectDomain_1">
+                      TestSObjectDomain (sObjectList, sObjectType)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.TestSObjectDomain">
+                    <span>TestSObjectDomain(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TestSObjectDomain(List&lt;Opportunity&gt; sObjectList)
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.TestSObjectDomain_1">
+                    <span>TestSObjectDomain(sObjectList, sObjectType)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TestSObjectDomain(List&lt;Opportunity&gt; sObjectList, SObjectType sObjectType)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectDomain Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onAfterInsert">
+                      onAfterInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onAfterUndelete">
+                      onAfterUndelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onApplyDefaults">
+                      onApplyDefaults ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onBeforeDelete">
+                      onBeforeDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onBeforeInsert">
+                      onBeforeInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onValidate">
+                      onValidate ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomain.onValidate_1">
+                      onValidate (existingRecords)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onAfterInsert">
+                    <span>onAfterInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onAfterUndelete">
+                    <span>onAfterUndelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterUndelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onApplyDefaults">
+                    <span>onApplyDefaults()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onApplyDefaults()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onBeforeDelete">
+                    <span>onBeforeDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onBeforeDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onBeforeInsert">
+                    <span>onBeforeInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onBeforeInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onValidate">
+                    <span>onValidate()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onValidate()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomain.onValidate_1">
+                    <span>onValidate(existingRecords)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onValidate(Map&lt;Id,SObject&gt; existingRecords)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectDomainConstructor">
+              <span>fflib_SObjectDomain.TestSObjectDomainConstructor</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Typically an inner class to the domain class, supported here for test purposes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TestSObjectDomainConstructor implements fflib_SObjectDomain.IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectDomainConstructor Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectDomainConstructor.construct">
+                      construct (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectDomainConstructor.construct">
+                    <span>construct(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectOnValidateBehaviour">
+              <span>fflib_SObjectDomain.TestSObjectOnValidateBehaviour</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Test domain class (ideally this would be in the test class, however Type.newInstance does not see such classes)
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public with sharing class TestSObjectOnValidateBehaviour
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectOnValidateBehaviour Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectOnValidateBehaviour.TestSObjectOnValidateBehaviour">
+                      TestSObjectOnValidateBehaviour (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectOnValidateBehaviour.TestSObjectOnValidateBehaviour">
+                    <span>TestSObjectOnValidateBehaviour(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TestSObjectOnValidateBehaviour(List&lt;Opportunity&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectOnValidateBehaviour Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectOnValidateBehaviour.onValidate">
+                      onValidate ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectOnValidateBehaviour.onValidate">
+                    <span>onValidate()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onValidate()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectOnValidateBehaviourConstructor">
+              <span>fflib_SObjectDomain.TestSObjectOnValidateBehaviourConstructor</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Typically an inner class to the domain class, supported here for test purposes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TestSObjectOnValidateBehaviourConstructor implements fflib_SObjectDomain.IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectOnValidateBehaviourConstructor Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectOnValidateBehaviourConstructor.construct">
+                      construct (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectOnValidateBehaviourConstructor.construct">
+                    <span>construct(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectStatefulDomain">
+              <span>fflib_SObjectDomain.TestSObjectStatefulDomain</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Test domain class (ideally this would be in the test class, however Type.newInstance does not see such classes)
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public with sharing class TestSObjectStatefulDomain
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_TestSObjectStatefulDomain">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.TestSObjectStatefulDomain Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>someState</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public String someState
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectStatefulDomain Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectStatefulDomain.TestSObjectStatefulDomain">
+                      TestSObjectStatefulDomain (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectStatefulDomain.TestSObjectStatefulDomain">
+                    <span>TestSObjectStatefulDomain(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TestSObjectStatefulDomain(List&lt;Opportunity&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectStatefulDomain Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectStatefulDomain.onAfterInsert">
+                      onAfterInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectStatefulDomain.onBeforeInsert">
+                      onBeforeInsert ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectStatefulDomain.onAfterInsert">
+                    <span>onAfterInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectStatefulDomain.onBeforeInsert">
+                    <span>onBeforeInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public override void onBeforeInsert()
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TestSObjectStatefulDomainConstructor">
+              <span>fflib_SObjectDomain.TestSObjectStatefulDomainConstructor</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-description">
+                Typically an inner class to the domain class, supported here for test purposes
+              </div>
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TestSObjectStatefulDomainConstructor implements fflib_SObjectDomain.IConstructable
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TestSObjectStatefulDomainConstructor Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TestSObjectStatefulDomainConstructor.construct">
+                      construct (sObjectList)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TestSObjectStatefulDomainConstructor.construct">
+                    <span>construct(sObjectList)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public fflib_SObjectDomain construct(List&lt;SObject&gt; sObjectList)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+
+            <h2 class="class-title " id="fflib_SObjectDomain.TriggerEvent">
+              <span>fflib_SObjectDomain.TriggerEvent</span>
+            </h2>
+            <div class="class-container">
+
+              <div class="class-subtitle">
+                Signature
+              </div>
+
+              <div class="class-signature">
+                public class TriggerEvent
+              </div>
+            </div>
+            <div class="subsection properties fflib_SObjectDomain_TriggerEvent">
+              <h3 class="subsection-title properties">fflib_SObjectDomain.TriggerEvent Properties</h3>
+              <table class="attributes-table properties">
+
+                <tr>
+                  <th>Name</th>
+                  <th>Signature</th>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>AfterDeleteEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean AfterDeleteEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>AfterInsertEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean AfterInsertEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>AfterUndeleteEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean AfterUndeleteEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>AfterUpdateEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean AfterUpdateEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>BeforeDeleteEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean BeforeDeleteEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>BeforeInsertEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean BeforeInsertEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+                <tr class="property public">
+                  <td class="attribute-name"><span>BeforeUpdateEnabled</span></td>
+                  <td>
+                    <div class="attribute-signature">
+                      public boolean BeforeUpdateEnabled
+                    </div>
+                  </td>
+
+
+                </tr>
+              </table>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TriggerEvent Constructors</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.TriggerEvent">
+                      TriggerEvent ()
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.TriggerEvent">
+                    <span>TriggerEvent()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent()
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subsection methods">
+              <h3 class="subsection-title methods">fflib_SObjectDomain.TriggerEvent Methods</h3>
+              <div class="methods-container">
+                <ul class="methods-toc">
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAfterDelete">
+                      disableAfterDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAfterInsert">
+                      disableAfterInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAfterUndelete">
+                      disableAfterUndelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAfterUpdate">
+                      disableAfterUpdate ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAll">
+                      disableAll ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAllAfter">
+                      disableAllAfter ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableAllBefore">
+                      disableAllBefore ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableBeforeDelete">
+                      disableBeforeDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableBeforeInsert">
+                      disableBeforeInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.disableBeforeUpdate">
+                      disableBeforeUpdate ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAfterDelete">
+                      enableAfterDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAfterInsert">
+                      enableAfterInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAfterUndelete">
+                      enableAfterUndelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAfterUpdate">
+                      enableAfterUpdate ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAll">
+                      enableAll ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAllAfter">
+                      enableAllAfter ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableAllBefore">
+                      enableAllBefore ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableBeforeDelete">
+                      enableBeforeDelete ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableBeforeInsert">
+                      enableBeforeInsert ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.enableBeforeUpdate">
+                      enableBeforeUpdate ()
+                    </a>
+
+                  </li>
+                  <li class="method public">
+                    <a class="methods-toc__entry " href="#fflib_SObjectDomain.TriggerEvent.isEnabled">
+                      isEnabled (isBefore, isAfter, isInsert, isUpdate, isDelete, isUndelete)
+                    </a>
+
+                  </li>
+                </ul>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAfterDelete">
+                    <span>disableAfterDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAfterDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAfterInsert">
+                    <span>disableAfterInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAfterUndelete">
+                    <span>disableAfterUndelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAfterUndelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAfterUpdate">
+                    <span>disableAfterUpdate()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAfterUpdate()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAll">
+                    <span>disableAll()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAll()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAllAfter">
+                    <span>disableAllAfter()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAllAfter()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableAllBefore">
+                    <span>disableAllBefore()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableAllBefore()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableBeforeDelete">
+                    <span>disableBeforeDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableBeforeDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableBeforeInsert">
+                    <span>disableBeforeInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableBeforeInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.disableBeforeUpdate">
+                    <span>disableBeforeUpdate()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent disableBeforeUpdate()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAfterDelete">
+                    <span>enableAfterDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAfterDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAfterInsert">
+                    <span>enableAfterInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAfterInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAfterUndelete">
+                    <span>enableAfterUndelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAfterUndelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAfterUpdate">
+                    <span>enableAfterUpdate()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAfterUpdate()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAll">
+                    <span>enableAll()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAll()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAllAfter">
+                    <span>enableAllAfter()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAllAfter()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableAllBefore">
+                    <span>enableAllBefore()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableAllBefore()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableBeforeDelete">
+                    <span>enableBeforeDelete()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableBeforeDelete()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableBeforeInsert">
+                    <span>enableBeforeInsert()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableBeforeInsert()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.enableBeforeUpdate">
+                    <span>enableBeforeUpdate()</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public TriggerEvent enableBeforeUpdate()
+                  </div>
+                </div>
+                <div class="method public">
+                  <h4 class="method-title " id="fflib_SObjectDomain.TriggerEvent.isEnabled">
+                    <span>isEnabled(isBefore, isAfter, isInsert, isUpdate, isDelete, isUndelete)</span>
+                  </h4>
+                  <div class="method-subtitle">
+                    Signature
+                  </div>
+
+                  <div class="method-signature">
+                    public boolean isEnabled(Boolean isBefore, Boolean isAfter, Boolean isInsert, Boolean isUpdate, Boolean isDelete, Boolean isUndelete)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+
+          <div>
+            <a href="https://github.com/no-stack-dub-sack/apexdox-vs-code" target="_blank" rel="noopener noreferrer">
+              Powered By ApexDox VS Code
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>
