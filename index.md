@@ -1,5 +1,5 @@
 # Welcome to my GitHub pages!
-My name is Chris and I am a Software Engineer with 13 years of Software Engineering experience, primarly working as a Senior Salesforce Developer/Technical Lead.
+My name is Chris and I am a Software Engineer with 13 years of Software Engineering experience, currently working as a Senior Salesforce Developer/Technical Lead.
 
 I don't commit to git often, but my git account can be found [here](https://github.com/cdelfattore).
 
