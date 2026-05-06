@@ -5,7 +5,10 @@ I don't commit to git often, but my git account can be found [here](https://gith
 
 As I work on new projects and code, I will post them on my github. 
 
-## Apex Enterprise Patterns
+## Salesforce Experience
+I started working with Salesforce in 2013. I have 12 Salesforce certifications, including the Platform Developer II, JavaScript Developer I, Application and System Architect certifications. My trailbalzer account can be found [here](https://www.salesforce.com/trailblazer/cdelfattore).
+
+### Apex Enterprise Patterns
 I have been using the Apex Enterprise patterns for about five years now. It was required for a project I was working on at the time and I became comfortable with it and found it to be useful for logically organizing code. Working with the pattern helped me understand more advanced object oriented design concepts.
 
 Below are some links to the generated Apex Docs for the two unmanaged packages needed to implement the Apex Enterprise Patterns.
