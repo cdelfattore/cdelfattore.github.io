@@ -3,3 +3,4 @@ Currently not much here, but some documentation of the fflib library. fflib is a
 
 ## Apex Enterprise Patterns Documentation
 [fflib-common](https://cdelfattore.github.io/documentation/fflib-common/)
+[fflib-apex-mocks](https://cdelfattore.github.io/documentation/fflib-apex-mocks)
