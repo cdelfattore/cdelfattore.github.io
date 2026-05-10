@@ -3,7 +3,7 @@ My name is Chris and I am a Software Engineer with 13 years of Software Engineer
 
 I don't commit to git often, but my git account can be found [here](https://github.com/cdelfattore).
 
-As I work on new projects and code, I will post them on my github. 
+As I work on new projects and code, I will post them on my github. Currently working as a Senior Salesforce Developer/Technical Lead. In my spare time I am working on learning more about AWS and the go programming language.
 
 ## Salesforce Experience
 I started working with Salesforce in 2013. I have 12 Salesforce certifications, including the Platform Developer II, JavaScript Developer I, Application and System Architect certifications. My trailbalzer account can be found [here](https://www.salesforce.com/trailblazer/cdelfattore).
